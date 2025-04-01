@@ -1,5 +1,5 @@
 const express = require('express');
-const Mercury = require('@postlight/parser');
+const Mercury = require('./dist/mercury'); // compiled Mercury parser
 const app = express();
 const PORT = process.env.PORT || 3000;
 
