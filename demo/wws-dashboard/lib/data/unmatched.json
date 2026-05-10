@@ -1,0 +1,41 @@
+[
+  {
+    "id": "u001",
+    "source": "squarespace",
+    "source_ref": "SQ-54056",
+    "received_at": "2026-01-08T06:24:00Z",
+    "status": "pending",
+    "customer_name": "Margaret Pemberton",
+    "customer_email": "m.pemberton@gmail.com",
+    "amount": 5000,
+    "match_suggestion": null,
+    "match_confidence": 0,
+    "reason": "No email match in eTapestry"
+  },
+  {
+    "id": "u002",
+    "source": "squarespace",
+    "source_ref": "SQ-66344",
+    "received_at": "2026-01-07T05:53:00Z",
+    "status": "pending",
+    "customer_name": "James Kentwell",
+    "customer_email": "jkentwell@yahoo.com",
+    "amount": 1000,
+    "match_suggestion": "James Kentwell (existing)",
+    "match_confidence": 87,
+    "reason": "Name match, email different"
+  },
+  {
+    "id": "u003",
+    "source": "squarespace",
+    "source_ref": "SQ-43752",
+    "received_at": "2026-01-09T02:25:00Z",
+    "status": "pending",
+    "customer_name": "Sarah O'Brien",
+    "customer_email": "obrien.s@gmail.com",
+    "amount": 300,
+    "match_suggestion": null,
+    "match_confidence": 0,
+    "reason": "First-time donor"
+  }
+]

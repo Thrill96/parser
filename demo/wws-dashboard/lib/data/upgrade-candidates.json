@@ -1,0 +1,82 @@
+[
+  {
+    "constituent_id": "c0027",
+    "current_tier": "Bronze Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 2500,
+    "ds_rating": 3,
+    "mlr_score": 96,
+    "target_ask": 5000,
+    "signal": "Confirmed $29,000/yr to similar orgs \u2014 4 verified gifts"
+  },
+  {
+    "constituent_id": "c0008",
+    "current_tier": "Gold Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 5000,
+    "ds_rating": 5,
+    "mlr_score": 93,
+    "target_ask": 15000,
+    "signal": "Confirmed $50,000/yr to similar orgs \u2014 4 verified gifts"
+  },
+  {
+    "constituent_id": "c0011",
+    "current_tier": "Gold Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 15000,
+    "ds_rating": 5,
+    "mlr_score": 92,
+    "target_ask": 25000,
+    "signal": "Confirmed $158,000/yr to similar orgs \u2014 4 verified gifts"
+  },
+  {
+    "constituent_id": "c0043",
+    "current_tier": "Bronze Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 3750,
+    "ds_rating": 5,
+    "mlr_score": 92,
+    "target_ask": 6250,
+    "signal": "Confirmed $58,000/yr to similar orgs \u2014 4 verified gifts"
+  },
+  {
+    "constituent_id": "c0014",
+    "current_tier": "Silver Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 5000,
+    "ds_rating": 5,
+    "mlr_score": 91,
+    "target_ask": 10000,
+    "signal": "Confirmed $123,000/yr to similar orgs \u2014 4 verified gifts"
+  },
+  {
+    "constituent_id": "c0038",
+    "current_tier": "Bronze Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 2500,
+    "ds_rating": 5,
+    "mlr_score": 91,
+    "target_ask": 5000,
+    "signal": "Confirmed $84,000/yr to similar orgs \u2014 4 verified gifts"
+  },
+  {
+    "constituent_id": "c0040",
+    "current_tier": "Bronze Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 2500,
+    "ds_rating": 3,
+    "mlr_score": 91,
+    "target_ask": 5000,
+    "signal": "Confirmed $25,000/yr to similar orgs \u2014 4 verified gifts"
+  },
+  {
+    "constituent_id": "c0018",
+    "current_tier": "Silver Eagle",
+    "target_tier": "Platinum Eagle",
+    "gap": 10000,
+    "ds_rating": 4,
+    "mlr_score": 90,
+    "target_ask": 15000,
+    "signal": "Confirmed $47,000/yr to similar orgs \u2014 4 verified gifts"
+  }
+]
