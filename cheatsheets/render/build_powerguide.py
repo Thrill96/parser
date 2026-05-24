@@ -44,17 +44,17 @@ body{font-family:Helvetica,Arial,sans-serif; color:#1F1A17;}
 .intro{font-size:8.2pt; line-height:1.36; margin-bottom:6px;}
 .panelbar{column-span:all; -weasy-column-span:all; background:#C15F3C; color:#FBF4EA; font-weight:bold; text-transform:uppercase; text-align:center; font-size:11.5pt; letter-spacing:.5px; padding:4px; border-radius:5px; margin:9px 0 7px;}
 .flow{column-count:3; column-gap:10px;}
-.sec{break-inside:avoid; margin-bottom:7px;}
+.sec{break-inside:avoid; margin-bottom:5.5px;}
 .sec>.h{background:#3A2E26; color:#FBF4EA; font-weight:bold; text-transform:uppercase; font-size:8.3pt; padding:2.5px 6px; border-radius:3px; letter-spacing:.3px;}
-.body{font-size:8.1pt; line-height:1.36; padding-top:2px;}
-.body p{margin:2.5px 0;}
+.body{font-size:7.85pt; line-height:1.3; padding-top:2px;}
+.body p{margin:2px 0;}
 .term{font-weight:bold;}
 .def{font-style:italic; color:#43392f;}
 ol.n{margin:2px 0 3px 15px; padding:0;}
-ol.n li{margin:2px 0;}
+ol.n li{margin:1.6px 0;}
 ol.n ol{margin:1px 0 1px 11px; list-style-type:lower-alpha;}
 ol.n ol ol{list-style-type:lower-roman;}
-table{border-collapse:collapse; width:100%; font-size:7.6pt; margin:3px 0;}
+table{border-collapse:collapse; width:100%; font-size:7.4pt; margin:2.5px 0;}
 th{background:#3A2E26; color:#FBF4EA; text-align:left; padding:2.5px 4px;}
 td{padding:2.5px 4px; border-bottom:1px solid #D8C7AD; vertical-align:top;}
 tr:nth-child(even) td{background:#E7DCC8;}
@@ -154,12 +154,33 @@ flow.append(sec("SMB Owner Playbook — Examples", [
  ("d","Template builder","\"Turn this top email into a reusable template with marked variables + 3 filled examples for different industries.\""),
  ("d","Policy/SOP upkeep","\"Compare legacy SOPs with the new process doc: list conflicts, produce one updated SOP, suggest 3 adoption metrics.\""),
 ]))
+flow.append(sec("Owner's Week With Claude", [
+ ("d","Mon","plan the week from last week's notes."),
+ ("d","Tue","draft a week of content from one idea."),
+ ("d","Wed","review pipeline; draft follow-ups."),
+ ("d","Thu","clean up ops: SOPs, vendor emails."),
+ ("d","Fri","recap wins; prep next week's list."),
+]))
+flow.append(sec("More Code Recipes", [
+ ("d","Tests","\"Write unit tests for this module; cover edge cases.\""),
+ ("d","Docs","\"Generate a README + inline comments for this file.\""),
+ ("d","Migrate","\"Port this script from [X] to [Y]; keep behavior identical.\""),
+ ("d","Explain an error","\"Walk me through this stack trace and the smallest safe fix.\""),
+]))
+flow.append(sec("Safety & Governance", [
+ ("p","Keep a human approval step on anything customer-facing or legal."),
+ ("p","Strip PII, card & bank data before pasting."),
+ ("p","Verify every number, date, name, and citation."),
+ ("p","Never auto-send unread output; disclose AI where required."),
+]))
 flow.append(sec("Troubleshooting Claude", [
  ("t",["Problem","Likely cause → Fix"],[
   ["Vague/generic","weak context → add examples, docs, audience, length, outcome"],
   ["Misses doc details","too many files → name files/sections; summarize then ask"],
   ["Inaccurate code","no full view/tests → give full files; run tests; tests before logic"],
-  ["Out-of-date","training cutoff → ask it to flag uncertainty; verify live facts"],
+  ["Out-of-date","training cutoff → flag uncertainty; verify live facts"],
+  ["Refuses a task","over-cautious → add why + context; \"general info is fine\""],
+  ["Forgot earlier","new chat → re-paste, or keep it in a Project"],
  ]),
 ]))
 
