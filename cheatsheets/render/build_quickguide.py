@@ -69,29 +69,29 @@ body { margin:0; font-family: Helvetica, Arial, sans-serif; color:#1F1A17; }
 .titlebar h1 { font-family:Georgia,'Times New Roman',serif; color:#FBF4EA; font-size:30pt; margin:0; font-weight:bold; line-height:.95; }
 .titlebar h1 .amp { font-weight:normal; }
 .titlebar .sub { color:#F6E7DA; font-size:8pt; margin-left:auto; text-align:right; line-height:1.05; font-style:italic; }
-.bar { background:var(--c); color:#FBF4EA; font-weight:bold; text-align:center; font-size:8.5pt; padding:2.5px; border-radius:4px; margin-top:4px; text-transform:uppercase; letter-spacing:.6px; }
-.banner { font-size:11pt; padding:3px; }
-.howto, .contents { font-size:6.9pt; line-height:1.28; padding:2px 3px; }
-.cols { display:flex; gap:6px; margin-top:4px; align-items:flex-start; }
+.bar { background:var(--c); color:#FBF4EA; font-weight:bold; text-align:center; font-size:9.5pt; padding:3.5px; border-radius:4px; margin-top:6px; text-transform:uppercase; letter-spacing:.6px; }
+.banner { font-size:13pt; padding:4px; }
+.howto, .contents { font-size:8.2pt; line-height:1.34; padding:4px 4px; }
+.cols { display:flex; gap:9px; margin-top:7px; align-items:stretch; }
 .col { flex:1; min-width:0; }
-.sec { margin-bottom:4px; }
-.sec > .h { background:var(--c); color:#FBF4EA; font-weight:bold; text-transform:uppercase; font-size:7.2pt; padding:2px 5px; border-radius:3px; letter-spacing:.3px; }
-.body { font-size:7pt; line-height:1.22; padding:1.5px 1px 0; }
-.body p { margin:1.3px 0; }
+.sec { margin-bottom:8px; }
+.sec > .h { background:var(--c); color:#FBF4EA; font-weight:bold; text-transform:uppercase; font-size:8.6pt; padding:3px 6px; border-radius:3px; letter-spacing:.3px; }
+.body { font-size:8.4pt; line-height:1.4; padding:3px 1px 0; }
+.body p { margin:3px 0; }
 .term { font-weight:bold; }
 .def { font-style:italic; color:#43392f; }
-ol.n { margin:1px 0 2px 13px; padding:0; }
-ol.n li { margin:.5px 0; }
-ol.n ol { margin:.3px 0 .3px 10px; list-style-type:lower-alpha; }
+ol.n { margin:2px 0 3px 15px; padding:0; }
+ol.n li { margin:2.6px 0; }
+ol.n ol { margin:1px 0 1px 11px; list-style-type:lower-alpha; }
 ol.n ol ol { list-style-type:lower-roman; }
-.fml { background:#E7DCC8; border-radius:3px; padding:2.5px 6px; margin:2px 0; font-family:Georgia,serif; font-size:7pt; line-height:1.3; }
+.fml { background:#E7DCC8; border-radius:3px; padding:5px 8px; margin:4px 0; font-family:Georgia,serif; font-size:9pt; line-height:1.4; text-align:center; }
 .fml div:last-child { font-weight:bold; }
-table { border-collapse:collapse; width:100%; font-size:6.6pt; margin:2px 0; }
-th { background:#3A2E26; color:#FBF4EA; text-align:left; padding:1.5px 3px; }
-td { padding:1.5px 3px; border-bottom:1px solid #D8C7AD; vertical-align:top; }
+table { border-collapse:collapse; width:100%; font-size:8pt; margin:3px 0; }
+th { background:#3A2E26; color:#FBF4EA; text-align:left; padding:2.5px 4px; }
+td { padding:2.5px 4px; border-bottom:1px solid #D8C7AD; vertical-align:top; }
 tr:nth-child(even) td { background:#E7DCC8; }
-.box { background:#E9DCC6; border-left:4px solid var(--c); padding:3px 6px 4px; border-radius:3px; margin-bottom:4px; }
-.box .bt { font-weight:bold; text-transform:uppercase; font-size:7.2pt; color:#3A2E26; }
+.box { background:#E9DCC6; border-left:5px solid var(--c); padding:5px 8px 6px; border-radius:3px; margin-bottom:6px; }
+.box .bt { font-weight:bold; text-transform:uppercase; font-size:8.6pt; color:#3A2E26; }
 .footer { position:absolute; left:0; right:0; bottom:0; background:#2A211B; color:#F6E7DA; text-align:center; font-weight:bold; font-size:8pt; padding:4.5px; letter-spacing:.3px; }
 .pageno { position:absolute; bottom:19px; left:0; right:0; text-align:center; font-size:7pt; color:#6b5849; }
 '''
@@ -109,6 +109,7 @@ pages = [
     ("S","The 3 Models",[("t",["Model","Best for"],[["Haiku 4.5","fast & cheap"],["Sonnet 4.6","the default"],["Opus 4.7","deepest reasoning"]])]),
     ("S","Free vs Pro",[("p","Free at claude.ai."),("p","OR Pro (~$20–30/mo): more usage, bigger files, Cowork.")]),
     ("S","Start in 2 Minutes",[("n",["Make a free account at claude.ai.","Type in the box, press Enter.","Click + to attach a PDF, doc, or image.","Start a New Chat for each new topic."])]),
+    ("S","Set It Up Once",[("def","Memory:","it can remember your name, business & preferences across chats — turn it on in Settings."),("def","Styles:","save your writing voice so drafts sound like you, not a robot.")]),
    ],
    [("S","Anatomy of a Good Prompt",[("d","ROLE","\"You are a careful editor.\""),("d","CONTEXT","who it's for, why, what 'good' looks like."),("d","TASK","one clear thing."),("d","FORMAT","length, tone, table or list."),("p","More of the four = better answers.")]),
     ("S","The Prompt Formula",[("fml",["Role + Context","+ Task + Format","= a great answer"])]),
@@ -148,15 +149,18 @@ pages = [
    [("S","The Technique Stack",[("def","Chain-of-Thought:","\"Think step by step\" — big jump on multi-step tasks."),("def","Few-shot (2–5):","paste input→output pairs; strongest format/voice lever."),("def","Self-consistency:","ask 3× in fresh chats, keep the recurring answer."),("def","Self-refine:","critique vs a rubric, list flaws, then rewrite."),("def","Tree-of-Thoughts:","3 approaches, score 1–10, expand the winner."),("def","Meta-prompt:","write the ideal prompt, then answer it."),("def","Decompose:","outline → draft → critique → final.")]),
     ("S","Advanced Patterns",[("def","Least-to-most:","solve easy sub-parts first."),("def","Step-back:","\"What principle governs this?\" then answer."),("def","ReAct:","reason → search → observe (with tools).")]),
     ("S","Prompt Add-Ons",[("p","\"Ask me 3 questions first.\""),("p","\"Show your reasoning briefly.\""),("p","\"Give a confidence note.\"")]),
+    ("S","Get Unstuck",[("p","\"Give me 3 different approaches.\""),("p","\"What am I missing here?\""),("p","\"Argue the opposite, then decide.\"")]),
    ],
    [("S","Choose the Right Model",[("t",["Model","Best for"],[["Haiku 4.5","bulk, real-time"],["Sonnet 4.6","everyday work"],["Opus 4.7","strategy, code"]])]),
     ("S","Claude-Specific Levers",[("n",["Ask directly — Claude 4 rewards explicit asks.","Use XML tags <context> <task>.","Long docs first; question last.","Tell it what TO do, not only what to avoid.","Prefill the output skeleton.","Use Projects for memory."])]),
     ("S","System Prompts",[("t",["Goal","Snippet"],[["Keep my voice","Ghostwriter; mimic samples"],["Be concise","Short paras + bullets"],["Fewer made-ups","If unsure, say so"],["Lock format","Reply in this template"]])]),
     ("S","Build Systems, Not One-Offs",[("p","Keep a reusable grading rubric."),("p","Save 3 golden examples to few-shot."),("p","Store best chains as templates.")]),
+    ("S","Connect Your Tools",[("def","Connectors / MCP:","let Claude work inside Gmail, Drive, Notion, your CRM."),("p","Grant access, then ask it to fetch, draft & update — you approve.")]),
    ],
    [("S","What's Next (Agentic Claude)",[("def","Cowork:","an autonomous assistant working in the background; you approve before it acts."),("def","Claude Code:","builds & ships whole projects from the terminal."),("def","Claude for Small Business:","15 ready-to-run workflows on your existing plan.")]),
     ("S","Troubleshooting",[("t",["Problem","Fix"],[["Still generic","examples + go Opus"],["Long-doc misses","chunk + Projects"],["Slow / pricey","drop to Haiku"],["Forgot earlier","re-paste / use a Project"],["Won't follow format","template first, numbered"]])]),
     ("S","Anti-Patterns (Stop)",[("p","Vague ask · 5 tasks in one · no example · rules buried at the end · pasting secrets.")]),
+    ("S","Scale Safely",[("p","Keep a human approval step on anything customer-facing."),("p","Never auto-send unread output."),("p","Log which decisions used AI.")]),
     ("BOX","Want the Full Playbook?",[("p","Deep, expert-built guides — Claude for Small Business Owners & Claude for Copywriting (the Ogilvy method) — at empower-core.com.")]),
    ],
   ]},
