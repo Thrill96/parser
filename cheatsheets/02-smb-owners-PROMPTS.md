@@ -1,10 +1,15 @@
 # Claude for Small Business Owners — PASTE-READY Higgsfield prompts (Gerber × Hormozi)
 
-> Anchor experts: **Michael Gerber (The E-Myth — build the machine)** + **Alex Hormozi ($100M Offers/Leads — fill the machine)**,
+> Anchor experts: **Michael Gerber (The E-Myth — build the machine)** + **Alex Hormozi ($100M Offers / Leads / Money Models — fill the machine + the cash engine)**,
 > operationalized into Claude prompts. Render method = WINNING-FORMULA.md (landscape, single panel, sienna header bars,
 > 7–8pt, zero padding, inline GREEN/AMBER/NAVY level pills, espresso masthead/footer, cream #f7f4ee, "InDesign print shop").
 > Models current 2026: Claude 4.x (Haiku 4.5, Sonnet 4.6, Opus 4.7). Frameworks attributed; no long verbatim excerpts.
 > Paste each PANEL prompt into Higgsfield (nano-banana), one at a time.
+>
+> Arc (4 panels for the PAID deep guide): **1 Foundation** (Gerber mindset + Claude setup) ·
+> **2 Build the Machine** (Gerber systematization) · **3 Fill the Machine** (Hormozi offers + leads) ·
+> **4 The Money Model** (Hormozi Lost Chapters cash engine — CFA, the 4-offer sequence, CAC/LTGP). Panel 4 is the
+> deep differentiator most SMB guides never teach.
 
 ---
 
@@ -78,7 +83,7 @@ COLUMN 1 — 7–8pt:
 Gerber's Business Development cycle — 1. INNOVATION: find a better way to do each task. 2. QUANTIFICATION: measure it (time, cost, conversion). 3. ORCHESTRATION: remove discretion — make it repeatable so the result is identical every time.
 Rule: if you do it twice, document it once.
 [SIENNA HEADER BAR] CLAUDE PROMPT — SOP ENGINE
-"You are a operations documenter. Here's how I do [task] from memory: [paste/voice notes]. Turn it into a numbered SOP a new $15/hr hire could follow with zero questions — roles, tools, steps, checks, and what 'done' looks like." [AMBER INTERMEDIATE]
+"You are an operations documenter. Here's how I do [task] from memory: [paste/voice notes]. Turn it into a numbered SOP a new $15/hr hire could follow with zero questions — roles, tools, steps, checks, and what 'done' looks like." [AMBER INTERMEDIATE]
 [SIENNA HEADER BAR] CONSOLIDATE WHAT EXISTS
 "Read every SOP in this Project. Produce ONE master SOP, remove duplication, clarify who owns each step, and flag contradictions."
 
@@ -128,7 +133,9 @@ COLUMN 2 — 7–8pt:
 [SIENNA HEADER BAR] THE CORE FOUR (LEADS)
 Only four ways to get leads — 1. Warm outreach (people you know). 2. Post free content (one-to-many). 3. Cold outreach (people you don't know). 4. Paid ads. Do more, better, or new.
 Lead magnet: solve one narrow problem free → reveal the bigger one you charge for.
+Avatar from your best buyers (Hormozi): don't guess your customer — survey your top 20% and copy their words.
 [SIENNA HEADER BAR] CLAUDE PROMPTS — LEADS
+"Here are answers from my top 20% of customers [paste]. Extract one avatar: their pains, the exact words they use, and the ONE outcome they'd pay 2× for — then write an offer headline in their language." [NAVY ADVANCED]
 "Design a lead magnet for [audience] that solves [narrow problem] in 10 minutes; outline it + a 5-email nurture sequence." [AMBER INTERMEDIATE]
 "Write 10 warm-outreach DMs that give value first, no pitch."
 "30 days of content from this one idea [X]: hooks + formats, mix of tips/story/offer." [GREEN BEGINNER]
@@ -153,3 +160,51 @@ Won't convert | rebuild with the Value Equation
 Day 1: build the Systems Project + brief. Day 2: document your #1 bottleneck task → SOP. Day 3: rebuild your offer with the Value Equation. Day 7: launch one Core Four lead source.
 
 CRITICAL RENDERING RULES: Body 7–8pt. Thin 18–20pt header bars. Hairline 0.5pt dividers. Zero padding. Inline GREEN/AMBER/NAVY level badges. InDesign print-shop aesthetic. If it looks like an infographic, the font is too large.
+
+---
+
+## PANEL 4
+
+Generate a BarCharts QuickStudy–type reference card. US Letter LANDSCAPE, single panel. Warm cream/tan parchment background (#f7f4ee).
+TOP MASTHEAD: thin dark espresso bar — left "WILL STEWART · ANTI-AI GURU", right italic "empower-core.com".
+MAIN TITLE BAR: large dark espresso banner, bold white serif centered "THE MONEY MODEL"; white italic subtitle "Make Customers Self-Fund Your Growth — Hormozi's Cash Engine × Claude · 2026 Edition".
+Three equal columns, hairline 0.5pt rules. Burnt sienna (#8B3A1A) thin 18–20pt header bars, white bold all-caps. Body 7–8pt dense sans-serif #2a2a2a. ZERO padding. Paper grain. InDesign aesthetic. FOOTER espresso bar, white "WILL STEWART AI · Anti-AI Guru · empower-core.com".
+
+COLUMN 1 — 7–8pt:
+[SIENNA HEADER BAR] CLIENT-FINANCED ACQUISITION (HORMOZI)
+The deepest lever most owners miss: it's not a lead problem or a product problem — it's a cash-TIMING problem.
+The big idea: a new customer should generate more gross profit in their first 30 days than it cost to GET and SERVE them. When that's true, every sale pays for the next — you grow without borrowing.
+The gate (rule of thumb): 30-Day Gross Profit ≥ 2× CAC. Clear it and you can buy customers all day.
+Two numbers to know cold: CAC = total sales + marketing ÷ new customers. LTGP = lifetime gross profit per customer. Healthy target: LTGP:CAC ≥ 3:1.
+Why owners stall at $1–3M: good offer, no cash to scale ads — the model makes money too slowly. [NAVY ADVANCED]
+[SIENNA HEADER BAR] CLAUDE PROMPT — CFA AUDIT
+"Here are my numbers: CAC [$], avg 30-day gross profit per customer [$], LTGP [$]. Tell me: am I financing my own growth? What's my LTGP:CAC? List the 3 fastest levers to get 30-day GP above 2× CAC." [NAVY ADVANCED]
+
+COLUMN 2 — 7–8pt:
+[SIENNA HEADER BAR] THE 4-OFFER SEQUENCE
+A money model is a deliberate ORDER of offers, not one offer:
+1. ATTRACTION — get the most buyers in the door (win-your-money-back, free-with-deposit, giveaway, buy-X-get-Y, decoy).
+2. UPSELL — raise the order at the point of sale (classic, menu, anchor, rollover).
+3. DOWNSELL — capture the "no" (payment plan, feature removal, trial-with-penalty).
+4. CONTINUITY — recurring revenue so they keep paying (subscription, retainer, auto-restock).
+The win: first-30-day cash from ONE customer funds acquiring the next 1–2. [AMBER INTERMEDIATE]
+[SIENNA HEADER BAR] CLAUDE PROMPT — BUILD MY MODEL
+"Map my business [paste] into a 4-offer money model: name ONE Attraction, ONE Upsell, ONE Downsell, ONE Continuity offer — with the exact mechanic and price for each, and the order to present them." [AMBER INTERMEDIATE]
+[SIENNA HEADER BAR] GERBER GUARDRAIL
+Each offer only scales if it's SYSTEMATIZED — turn every winning offer into an SOP (Panel 2) so any hire can deliver it the same way.
+
+COLUMN 3 — 7–8pt:
+[SIENNA HEADER BAR] RUN THE MATH — THE LEVERS
+[3-COL TABLE, tight] Lever | Move | Effect
+Raise 30-day GP | add an upsell at point of sale | faster payback
+Lower CAC | warm / owned channels (Core Four) | cheaper buyers
+Add continuity | one recurring offer | LTGP↑ + stability
+Speed cash | deposit / pay-now discount | funds next sale
+[SIENNA HEADER BAR] CLAUDE — STRESS-TEST
+"Model 3 scenarios for [offer]: base, +1 upsell, +continuity. For each show 30-day GP, CAC payback window, and LTGP:CAC." [NAVY ADVANCED]
+[SIENNA HEADER BAR] OWNER'S TRUTH
+"You don't have a lead problem — you have a cash-timing problem. Fix the model and the ad budget takes care of itself."
+[SIENNA HEADER BAR] START THIS WEEK [GREEN BEGINNER]
+1. Compute CAC + 30-day GP. 2. Add ONE upsell at checkout. 3. Add ONE continuity offer. 4. Re-check the 2× gate.
+
+CRITICAL RENDERING RULES: Body 7–8pt. Thin 18–20pt header bars. Hairline 0.5pt dividers. Zero padding. Inline GREEN/AMBER/NAVY level badges. InDesign print-shop aesthetic. If it looks like an infographic, the font is too large. Top-right above masthead small italic: "AI Practitioner Series · For Owner-Operators $500K–$5M".

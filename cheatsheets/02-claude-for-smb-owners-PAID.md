@@ -85,6 +85,7 @@
 - **Meeting prep & follow-up:** summarizes CRM notes; drafts follow-ups in brand voice.
 **Framework-powered prompts (the deep stuff):**
 - *Hormozi Value Equation:* "Rewrite this offer to maximize (Dream Outcome × Perceived Likelihood) ÷ (Time Delay × Effort). One concrete change per lever."
+- *Hormozi Money Model / CFA:* "Map my business into a 4-offer sequence — Attraction, Upsell, Downsell, Continuity. Then audit Client-Financed Acquisition: with CAC [$], 30-day gross profit [$], LTGP [$], is 30-day GP ≥ 2× CAC? Give 3 levers to fix the cash timing." *(The deep, non-obvious panel — see Panel 4 of the landscape build.)*
 - *StoryBrand SB7:* "Make the CUSTOMER the hero, us the guide. Output: their want, external/internal/philosophical problem, our 3-step plan, a direct CTA, the stakes of inaction."
 
 ## COL 4 — HIRING + THE AI-POWERED DAY
