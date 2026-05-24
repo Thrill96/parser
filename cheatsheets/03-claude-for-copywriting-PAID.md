@@ -29,6 +29,7 @@
 - **The more you tell, the more you sell.** Readership barely drops from 50→500 words. Be informative; answer "why."
 - **Don't bury the news.** New = the easiest thing to sell. Launch with a "Boom-Boom."
 - **Respect the reader.** "The consumer isn't a moron; she is your wife." Don't talk down. "Nobody was ever bored into buying."
+- **Substance over style.** "What you say is more important than how you say it." Every ad is "a long-term investment in the image of a brand."
 - **Problem→solution + story appeal** consistently beat the average. **Repeat your winners** (readership rises up to ~5 repeats).
 
 ## COL 3 — CLAUDE LENS: WHAT AI CHANGES *(teal)*
@@ -58,8 +59,8 @@
 **Claude prompt:** *"Give me 10 big-idea angles for [product] aimed at [audience]. Each: a one-line concept + the single promise it dramatizes + why it jolts. Rank by promise strength. No puns, no clichés. Then expand the top 2 into a paragraph each."*
 
 ## COL 3 — HEADLINES (80% OF THE DOLLAR)
-**Ogilvy:** "If you don't sell in the headline you've wasted 80% of your money." Benefit + brand + genuine news; long beats short. Model: *"At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock."*
-**Claude prompt:** *"Write 20 headlines for [product]. Rules: lead with the #1 benefit; include the brand; work in genuine news where true; 8–12 words; no wordplay. Then score each 1–10 on clarity + promise and give me the best 3 with why."*
+**Ogilvy:** "If you don't sell in the headline you've wasted 80% of your money." Benefit + brand + genuine news; long beats short. The two most powerful words are **"FREE" and "NEW"**; headlines in **quotation marks lift recall ~28%**. Model: *"At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock."*
+**Claude prompt:** *"Write 20 headlines for [product]. Rules: lead with the #1 benefit; include the brand; work in genuine news where true; use 'new'/'free' only when honest; 8–12 words; no wordplay. Then score each 1–10 on clarity + promise and give me the best 3 with why."*
 
 ## COL 4 — BODY COPY + PROBLEM/SOLUTION
 **Ogilvy:** "The more you tell, the more you sell." Be informative; answer every "why." For problem-solution: "set up a problem the consumer recognizes, then prove your product solves it — don't cheat."
@@ -72,8 +73,8 @@
 **Banner:** OGILVY WAS A TESTING FANATIC — SO IS AI.
 
 ## COL 1 — TEST LIKE OGILVY *(amber rule → teal prompt)*
-**Ogilvy:** "If it doesn't sell, it isn't creative." He found **no correlation between awards and sales**, and said to **repeat your winners**.
-**Claude prompt:** *"Turn this winning ad into 10 headline variants and 3 CTA variants as a table ready for A/B testing; keep the promise identical, vary only the hook."* Then keep the control; only swap when a variant beats it.
+**Ogilvy:** "If it doesn't sell, it isn't creative." **"Never stop testing, and your advertising will never stop improving."** Direct response was his **"first love and secret weapon"** — because it *measures*. No correlation between awards and sales; **repeat your winners**.
+**Claude prompt:** *"Turn this winning ad into 10 headline variants and 3 CTA variants as a table ready for A/B testing; keep the promise identical, vary only the hook."* Then keep the control; only swap when a variant beats it on the metric.
 
 ## COL 2 — THE 3 CLAUDE SURFACES
 **(table — SURFACE | USE IT FOR):**
