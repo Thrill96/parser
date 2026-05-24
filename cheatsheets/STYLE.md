@@ -41,6 +41,15 @@ command and any future session must follow this exactly so the look/voice never 
 5. Full-width espresso footer, centered cream:
    `Will Stewart - Anti-AI Guru - empower-core.com`
 
+## 3b. Layout modes (PICK PER PRODUCT — do not mix up)
+- **PRACTITIONER guides (paid)** = DENSE 4-COLUMN dual-lens. This is the user-approved "Claude for Copywriting" build:
+  Expert-Lens espresso bars stacked over Claude-Lens terracotta bars, tables, swipe/worked-example boxes. Keep using it for paid.
+- **CONSUMER / Quick Reference (free)** = **BENTO BOX**. A tight grid of rounded-rectangle tiles of VARYING sizes, each a
+  self-contained module (bold serif heading + packed bullets / mini-table / number or splat badge), edge-to-edge with small
+  even gaps — exactly like the reference infographics ("20 Ways…", "12 Mind-Blowing…", "Set Up Claude Once"). PACK 10–14 tiles,
+  ~100% load. Tiles = off-white `#FAF7F1` rounded cards with a thin tan border or terracotta left-accent; one tile may be a
+  solid-terracotta accent tile (cream text). Big Claude splat top-left of the title. NOT newspaper columns.
+
 ## 4. Brand & voice
 - Brand line: `WILL STEWART AI`. Consumer tagline: `WORLD'S FRIENDLIEST AI QUICK REFERENCE`.
 - Practitioner series tag: `AI PRACTITIONER SERIES`. Credit line: `By Will Stewart - AI Implementation Consultant - empower-core.com`.

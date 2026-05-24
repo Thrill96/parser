@@ -13,45 +13,25 @@
 
 ---
 
-# PANEL 1 — BEGINNER (green)
+> LAYOUT = BENTO BOX (STYLE §3b). Each panel is a packed grid of rounded tiles of varying sizes — NOT columns.
 
-**Title block:** WILL STEWART AI · "WORLD'S FRIENDLIEST AI QUICK REFERENCE" · *Claude — A Quick Reference Guide* · green BEGINNER tab.
+# PANEL 1 — BEGINNER  (bento grid, ~12 tiles)
 
-## COL 1 — WHAT CLAUDE ACTUALLY IS
-- Claude is a family of AI models (Haiku, Sonnet, Opus) that read, write, and reason over long text and images.
-- It's a superpowered writing & thinking partner — not magic. You still decide what's right.
-- You type a request (a "prompt"); it answers; you refine. It works in many languages.
-- Free at claude.ai; paid (Pro, ~$20–30/mo) adds more usage, bigger files, and Cowork.
-- It predicts helpful text — it doesn't *know* you and (by default) doesn't remember past chats.
+**Title:** Claude splat top-left · "WILL STEWART AI" · big serif title *Claude — A Quick Reference Guide* · clay BEGINNER pill right · thin explainer bar: "New to Claude? Zero to confident — packed into one page."
 
-## COL 2 — YOUR FIRST 10 THINGS TO TRY
-*(each = action + a mini prompt to copy)*
-- Summarize an article/transcript → *"Summarize this in plain English, 5 bullets: [paste]."*
-- Clean up meeting notes → *"Turn these notes into an action list with owners: [paste]."*
-- Reply to an email in your voice → *"Draft a friendly reply to this: [paste]."*
-- Brainstorm → *"Give me 10 content ideas for [niche]."*
-- Simplify reading level → *"Rewrite at a 6th-grade level: [paste]."*
-- Explain hard things → *"Explain [escrow/APIs/taxes] like I'm 12."*
-- Compare options → *"Compare [A] vs [B] with pros & cons in a table."*
-- Draft a post → *"Turn these bullets into a LinkedIn post: [paste]."*
-- Prep questions → *"Give me 10 questions to ask in a [sales call/interview]."*
-- Make an SOP → *"Turn this checklist into a step-by-step SOP: [paste]."*
-
-## COL 3 — BEGINNER RULES OF THUMB
-- Always paste context: what you're doing, who it's for, where it's used.
-- Ask for 2–3 options, then pick and refine.
-- State constraints up front: word count, tone, audience, format.
-- When stuck: *"Ask me 5 questions before you answer."*
-- Start a New Chat per topic so context stays clean.
-- Never paste passwords, card numbers, or anything you can't un-share.
-
-## COL 4 — WATCH-OUTS + TRY THIS
-**Watch-outs:**
-- Sounds confident even when wrong — verify facts, names, numbers.
-- May not know today's news/prices unless it searches.
-- Each chat starts fresh; re-paste what it needs.
-**Words to know:** Prompt (your request) · Model (the version) · Token (a chunk of text) · Hallucination (confident wrong answer) · Context (what it can see now).
-**TRY THIS box:** *"You are my AI writing buddy. Ask me 5 questions about my business, then write a warm, confident 3-paragraph 'About' section for my website."* → a usable draft in minutes.
+**TILES (rounded cards, varying sizes, edge-to-edge, ~100% full):**
+1. **WHAT CLAUDE IS** — a family of AI models that read, write & reason over long text + images; a thinking partner, not magic; you type a prompt, it answers, you refine; works in many languages.
+2. **THE 3 MODELS** — Haiku 4.5: fast & cheap · Sonnet 4.6: the default · Opus 4.7: deepest reasoning.
+3. **FREE vs PRO** — Free at claude.ai · Pro (~$20–30/mo) adds usage, big files, Cowork.
+4. **YOUR FIRST 10 PROMPTS** *(large tile)* — Summarize this in 5 bullets · Notes → action list · Draft a friendly reply · 10 ideas for [niche] · Rewrite at 6th-grade level · Explain [X] like I'm 12 · Compare [A] vs [B] as a table · Bullets → LinkedIn post · 10 questions for a [sales call] · Checklist → SOP.
+5. **THE 4-PART PROMPT** — ROLE · CONTEXT · TASK · FORMAT. More of these = better answers.
+6. **RULES OF THUMB** — paste context · ask for 2–3 options · state constraints (length, tone, audience) · "ask me 5 questions first" · New Chat per topic.
+7. **FIX A BAD ANSWER** *(mini table)* — Too long → cut in half · Too stiff → warmer · Too vague → add an example · Made-up → "use only my facts" · Too generic → make it specific to me.
+8. **WATCH-OUTS** — confident even when wrong (verify) · may miss today's news/prices · each chat starts fresh; re-paste.
+9. **WORDS TO KNOW** — Prompt · Model · Token · Hallucination · Context.
+10. **NEVER PASTE** — passwords · card numbers · client secrets.
+11. **WHERE TO USE IT** — inbox · learning · planning · writing · decisions.
+12. **TRY THIS** *(solid terracotta accent tile, cream text)* — "You are my AI writing buddy. Ask me 5 questions about my business, then write a warm, confident 3-paragraph About section for my website."
 
 ---
 
