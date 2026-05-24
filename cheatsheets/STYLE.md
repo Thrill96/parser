@@ -52,10 +52,13 @@ command and any future session must follow this exactly so the look/voice never 
      light clay = Beginner, tan = Intermediate, deep espresso tint = Advanced; "OR" marks an alternative step).
   4. "CONTENTS" full-width bar listing the pages.
   5. Full-width LEVEL section banner ("BEGINNER TIPS", etc.).
-  6. THREE dense columns: every topic gets its own small colored sub-section header bar over packed bullets/sub-bullets;
-     tint each tip block's background by level; embed small tables / mock screenshots; one tinted "Try This" box.
+  6. THREE columns, **FIVE–SIX stacked topic blocks each** (12–18 per page); every topic gets its own small sub-section
+     header bar **COLORED BY LEVEL**: Beginner = terracotta `#C15F3C`, Intermediate = burnt-amber `#B07A3C`,
+     Advanced = espresso `#3A2E26` (cream text on all). Embed small tables; one tinted "Try This" box.
   7. Page number bottom-center.
-  Packed ~100%. Claude palette + splat throughout. NOT bento, NOT plain columns — it must read as a QuickStudy card.
+  **DENSITY IS THE POINT:** tiny ~5pt body text, very tight leading, sub-bullets and "OR" branches, near-zero gaps —
+  fit ALL the content on one page and shrink the type until it does, so it looks slightly overwhelming (like the Excel
+  QuickStudy card / a tax form). If a block has empty room, it's too big. Claude palette + splat. NOT bento, NOT airy columns.
 
 ## 4. Brand & voice
 - Brand line: `WILL STEWART AI`. Consumer tagline: `WORLD'S FRIENDLIEST AI QUICK REFERENCE`.
