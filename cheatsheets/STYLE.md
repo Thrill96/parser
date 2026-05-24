@@ -4,10 +4,12 @@ This is the single source of truth for every Will Stewart AI reference card. The
 command and any future session must follow this exactly so the look/voice never drifts.
 
 ## 0. Render engine (what actually works)
-- Tool: Higgsfield MCP `generate_image`, model `nano_banana_pro`, `resolution: "4k"`, `aspect_ratio: "3:4"` (portrait 8.5×11).
+- Tool: Higgsfield MCP `generate_image`, model `nano_banana_pro`, `aspect_ratio: "3:4"` (portrait 8.5×11).
+- **Resolution rule:** practice / calibration / layout tests = LOW res (`"1k"`). Only FINAL, human-approved
+  panels render at `"4k"`. Never burn 4K on a draft.
 - One image per panel/page. Display each with `job_display` after it renders (CDN is blocked from the sandbox,
   so the human reviews in their widget — always ask them to proofread small text; the model can garble tiny type).
-- Credits: ~4 per 4K image. A 3-panel guide ≈ 12 credits. Check `balance` if unsure.
+- Credits: ~4 per 4K image, far less at 1k. A 3-panel final guide ≈ 12 credits. Check `balance` if unsure.
 
 ## 1. Look & finish (NON-NEGOTIABLE)
 - **FLAT MATTE printed page / PDF.** Always include the negative list: NO lamination, NO plastic sheen, NO glare,

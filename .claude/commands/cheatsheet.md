@@ -26,9 +26,10 @@ locked house style (look, palette, layout, voice, fact discipline, and the gener
    (single-source stats, product specifics). Ask: red-pen or green-light? **Do not render until they approve.**
    This is the one mandatory human step — never skip it.
 
-5. **Render** (after approval). For each panel, call `generate_image` (nano_banana_pro, 4k, 3:4) using the
-   STYLE §8 template filled with that panel's content + the correct level/lens colors and the flat-matte negative list.
-   Fire panels in parallel. Then `job_display` each so the human can review in their widget.
+5. **Render.** Any practice/calibration/layout test uses LOW res (`1k`). Only the FINAL approved panels use `4k`
+   (STYLE §0). For each panel call `generate_image` (nano_banana_pro, 3:4) using the STYLE §8 template filled with that
+   panel's content + correct level/lens colors and the flat-matte negative list. Fire panels in parallel, then
+   `job_display` each for review.
 
 6. **Proof & finish.** Ask the human to zoom in and proofread small text (the model can garble tiny type); regenerate any
    panel they flag. Update the topic's status in `cheatsheets/topics.md` (`drafted` → `approved` → `rendered`) and add it
