@@ -44,11 +44,18 @@ command and any future session must follow this exactly so the look/voice never 
 ## 3b. Layout modes (PICK PER PRODUCT — do not mix up)
 - **PRACTITIONER guides (paid)** = DENSE 4-COLUMN dual-lens. This is the user-approved "Claude for Copywriting" build:
   Expert-Lens espresso bars stacked over Claude-Lens terracotta bars, tables, swipe/worked-example boxes. Keep using it for paid.
-- **CONSUMER / Quick Reference (free)** = **BENTO BOX**. A tight grid of rounded-rectangle tiles of VARYING sizes, each a
-  self-contained module (bold serif heading + packed bullets / mini-table / number or splat badge), edge-to-edge with small
-  even gaps — exactly like the reference infographics ("20 Ways…", "12 Mind-Blowing…", "Set Up Claude Once"). PACK 10–14 tiles,
-  ~100% load. Tiles = off-white `#FAF7F1` rounded cards with a thin tan border or terracotta left-accent; one tile may be a
-  solid-terracotta accent tile (cream text). Big Claude splat top-left of the title. NOT newspaper columns.
+- **QUICK REFERENCE guides (free)** = authentic **BarCharts QuickStudy laminated-card** layout (the "Excel Tips & Tricks"
+  model the user confirmed — THIS is the target). Required chrome, top to bottom:
+  1. Thin top line: brand left, italic "WORLD'S FRIENDLIEST AI QUICK REFERENCE" center; faint vertical "QUICK REFERENCE" side tab.
+  2. TITLE bar (rounded, terracotta): Claude splat + huge serif "Claude" + "Tips & Tricks".
+  3. "HOW TO USE THIS GUIDE" full-width bar + small paragraph with a COLOR LEGEND (tip-block tint = level:
+     light clay = Beginner, tan = Intermediate, deep espresso tint = Advanced; "OR" marks an alternative step).
+  4. "CONTENTS" full-width bar listing the pages.
+  5. Full-width LEVEL section banner ("BEGINNER TIPS", etc.).
+  6. THREE dense columns: every topic gets its own small colored sub-section header bar over packed bullets/sub-bullets;
+     tint each tip block's background by level; embed small tables / mock screenshots; one tinted "Try This" box.
+  7. Page number bottom-center.
+  Packed ~100%. Claude palette + splat throughout. NOT bento, NOT plain columns — it must read as a QuickStudy card.
 
 ## 4. Brand & voice
 - Brand line: `WILL STEWART AI`. Consumer tagline: `WORLD'S FRIENDLIEST AI QUICK REFERENCE`.
