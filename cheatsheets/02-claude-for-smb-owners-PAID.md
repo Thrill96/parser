@@ -4,7 +4,7 @@
 > **Owner Lens** (a $10M owner-operator who already made the leap — the real pain & the decision) and
 > **Claude Lens** (a deep Claude practitioner — the workflow & the exact prompt). Render Owner Lens in
 > amber, Claude Lens in teal, so the page literally looks like two experts working together.
-> Footer every page: *Follow Will Stewart for more human-centered AI insights · willstewart.ai · @willstewart*
+> Footer every page: *Will Stewart · Anti-AI Guru · empower-core.com*
 > Render: FLAT MATTE printed page / PDF (NOT laminated). Portrait 8.5×11, 4 ultra-dense columns, BarCharts density.
 > Reader: owner of a $500K–$5M business aiming for $10M — overworked, low leverage, drowning in docs/email/decisions.
 >
@@ -19,14 +19,15 @@
 >   one operator ran 38 Claude projects → ~$365K/yr savings + ~$403K one-time (~$768K) on a few hundred $ of spend.
 
 ## Build palette
-- Cream `#F5F0E8` bg; charcoal `#28251D` text. **Owner Lens = amber `#D19900`** bars/sidebars; **Claude Lens = teal `#01696F`**.
-- Tables: navy `#0A0F1E` header, zebra rows. Example boxes tan `#EDE8DF`. CTA box navy/white. Footer navy/white.
+- **Use the Claude brand in STYLE.md §2:** warm cream `#F0EAE0`, espresso `#1F1A17` ink, terracotta `#C15F3C`, the splat, serif/sans.
+- **Dual-lens:** Owner Lens = espresso `#3A2E26` bars; Claude Lens = terracotta `#C15F3C` bars (both cream text).
+- Tables espresso header + zebra cream/tan `#E5DAC6`; tan example boxes; espresso footer (cream text).
 
 ---
 
 # PANEL 1 — OWNER MINDSET & FOUNDATIONS
 
-**Header:** AI PRACTITIONER SERIES · navy tag "FOR OWNER-OPERATORS · $500K–$5M REVENUE" · *Claude for Small Business Owners* · italic "Running a $10M business with Claude as your operator." · credit "By Will Stewart · AI Implementation Consultant · willstewart.ai".
+**Header:** AI PRACTITIONER SERIES · navy tag "FOR OWNER-OPERATORS · $500K–$5M REVENUE" · *Claude for Small Business Owners* · italic "Running a $10M business with Claude as your operator." · credit "By Will Stewart · AI Implementation Consultant · empower-core.com".
 
 ## COL 1 — OWNER LENS: WHAT CHANGES ONCE YOU HAVE CLAUDE *(amber)*
 - You stop *reading* every document — Claude reads and briefs you.
@@ -127,4 +128,4 @@
 - 0–30 days | Pick 2–3 document workflows + 1 marketing/sales workflow; build in Projects; run manually.
 - 30–60 days | Connect tools (Google Workspace, CRM, accounting); move from "drafts" to "click-approve."
 - 60–90 days | Systematize: SOPs, templates, dashboards; decide keep-in-house vs. bring in an implementation partner.
-**CTA box (navy):** "You're using ~20% of what Claude can do." Book a free AI strategy session → willstewart.ai · @willstewart · [QR].
+**CTA box (navy):** "You're using ~20% of what Claude can do." Book a free AI strategy session → empower-core.com · [QR].

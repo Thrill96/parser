@@ -6,7 +6,7 @@
 > executes it) = Claude terracotta `#C15F3C`. The whole product = an expert's frameworks × how to run them with AI.
 > BRAND: full Claude identity per STYLE §2 — warm cream, terracotta, the splat mark, editorial serif/sans.
 > DENSITY: ~100% cognitive load. Use the famous-ads SWIPE box so readers see real Ogilvy copy, not just rules.
-> Footer every page: *Follow Will Stewart for more human-centered AI insights · willstewart.ai · @willstewart*
+> Footer every page: *Will Stewart · Anti-AI Guru · empower-core.com*
 > Render per cheatsheets/STYLE.md: FLAT MATTE, 4 columns, BarCharts density. Low-res for drafts, 4K for finals.
 > Heresy nod (header italic): "Ogilvy never met an LLM. His rules still decide whether your copy sells."
 > Attribution: all principles/quotes are David Ogilvy / Ogilvy & Mather. The AI execution is the new layer.
@@ -17,7 +17,7 @@
 
 # PANEL 1 — THE FOUNDATION: OGILVY'S LAWS × AI
 
-**Header:** AI PRACTITIONER SERIES · navy tag "FOR FOUNDERS, MARKETERS & COPYWRITERS" · title **Claude for Copywriting** · italic "The Ogilvy Method, executed with AI — he never met an LLM; his rules still decide whether your copy sells." · credit "By Will Stewart · willstewart.ai · built on David Ogilvy's principles."
+**Header:** AI PRACTITIONER SERIES · navy tag "FOR FOUNDERS, MARKETERS & COPYWRITERS" · title **Claude for Copywriting** · italic "The Ogilvy Method, executed with AI — he never met an LLM; his rules still decide whether your copy sells." · credit "By Will Stewart · empower-core.com · built on David Ogilvy's principles."
 
 ## COL 1 — OGILVY LENS: THE LAWS THAT STILL RULE *(amber)*
 - **Positioning is decision #1.** "The results depend less on how we write than on how your product is positioned." Decide it before a word is written.
@@ -97,4 +97,4 @@
 
 ## COL 4 — WORKED EXAMPLE + CTA
 **WORKED EXAMPLE (tan box) — the full chain in one prompt:** *"You are a direct-response copywriter in the Ogilvy tradition. Brief: [paste]. 1) State the ONE promise. 2) Give 3 big ideas. 3) Write 10 benefit-led headlines (brand + promise, 8–12 words). 4) Write 350-word body that answers every 'why' and ends in one CTA. 5) Give 3 A/B variants of the headline. Obey the brief; invent no facts."*
-**CTA box (navy):** Want this built into your business, end to end? willstewart.ai · @willstewart · [QR].
+**CTA box (navy):** Want this built into your business, end to end? empower-core.com · [QR].

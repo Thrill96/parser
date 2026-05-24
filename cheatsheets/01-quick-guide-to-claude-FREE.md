@@ -1,15 +1,15 @@
 # The Quick Guide to Claude — FREE Lead Magnet (deep content, 3 panels)
 
 > Will Stewart AI · "AI Quick Reference" series. Voice: human-centered, practical, plain-English.
-> Footer every page: *Follow Will Stewart for more human-centered AI insights · willstewart.ai · @willstewart*
+> Footer every page: *Will Stewart · Anti-AI Guru · empower-core.com*
 > Render: FLAT MATTE printed page / PDF look (NOT laminated, no glare). Portrait 8.5×11, 4 ultra-dense
 > columns at 5–6pt, edge-to-edge, BarCharts/QuickStudy density. Levels: Beginner=green, Intermediate=amber, Advanced=navy.
 > Models are CURRENT as of May 2026: Claude 4.x — Opus 4.7, Sonnet 4.6, Haiku 4.5. (Do NOT say "Claude 3".)
 
 ## Build palette
-- Background cream `#F5F0E8`; body charcoal `#28251D`; accent teal `#01696F`.
-- Level banners: Beginner green/teal, Intermediate amber `#D19900`, Advanced navy `#0A0F1E` (white text).
-- Tables: navy/teal header row, zebra rows `#F5F0E8`/`#EDE8DF`. Example boxes tan `#EDE8DF`. Footer navy/white.
+- **Use the Claude brand in STYLE.md §2:** warm cream `#F0EAE0`, espresso `#1F1A17` ink, terracotta `#C15F3C` accent, the splat mark, serif/sans.
+- Section banners terracotta; tables espresso header + zebra cream/tan `#E5DAC6`; tan example boxes; espresso footer (cream text).
+- Level tab only: Beginner clay `#C15F3C` · Intermediate burnt-amber `#B07A3C` · Advanced espresso `#3A2E26`.
 
 ---
 
@@ -126,4 +126,4 @@ A system prompt = standing instructions Claude follows the whole chat. Reusable 
 - Misses details in long docs | overload | chunk + summarize first; use Projects
 - Too slow/pricey | Opus on trivial work | drop small tasks to Haiku/Sonnet
 - Forgot earlier info | new chat | re-paste, or use a Project
-**CTA box (teal):** Want the full playbook? *Claude for Small Business Owners* → willstewart.ai · @willstewart · [QR].
+**CTA box (teal):** Want the full playbook? *Claude for Small Business Owners* → empower-core.com · [QR].

@@ -34,16 +34,16 @@ command and any future session must follow this exactly so the look/voice never 
 - **Dual-lens:** the Expert Lens (Ogilvy/Owner) = espresso `#3A2E26` bars; the **Claude Lens = terracotta `#C15F3C`** bars; both cream text.
 
 ## 3. Layout skeleton (every page)
-1. Top header: brand left, italic tagline center, level/panel tab right.
-2. Big title banner: huge "Claude" + lighter subtitle.
-3. Full-width section banner (the panel name).
-4. Four columns; each = subsection bars + bullets, plus tables (navy/teal header, zebra rows) and/or one tan box.
-5. Full-width navy footer, centered white:
-   `Follow Will Stewart for more human-centered AI insights - willstewart.ai - @willstewart`
+1. Top header: terracotta Claude splat top-left, brand left, italic tagline center, level/panel tab right.
+2. Big title banner: huge serif "Claude" + lighter subtitle.
+3. Full-width terracotta section banner (the panel name).
+4. Four columns; each = subsection bars + bullets, plus tables (espresso header, zebra cream/tan rows) and/or one tan box.
+5. Full-width espresso footer, centered cream:
+   `Will Stewart - Anti-AI Guru - empower-core.com`
 
 ## 4. Brand & voice
 - Brand line: `WILL STEWART AI`. Consumer tagline: `WORLD'S FRIENDLIEST AI QUICK REFERENCE`.
-- Practitioner series tag: `AI PRACTITIONER SERIES`. Credit line: `By Will Stewart - AI Implementation Consultant - willstewart.ai`.
+- Practitioner series tag: `AI PRACTITIONER SERIES`. Credit line: `By Will Stewart - AI Implementation Consultant - empower-core.com`.
 - Voice: human-centered, plain-English for consumer guides; expert operator + Claude-practitioner dual voice for practitioner guides.
 - Bullets = actions. Tables = lookups. Tan boxes = copyable examples. Every claim earns its place.
 
@@ -67,13 +67,14 @@ Hormozi Value Equation · StoryBrand SB7 · Cialdini's 7 · E-Myth (systematize)
 Prompt-eng stack: Chain-of-Thought · few-shot (2–5) · self-consistency · self-refine · Tree-of-Thoughts · meta-prompting · decomposition.
 
 ## 8. Generation-prompt template (fill the [BRACKETS])
-> A FLAT, MATTE printed reference sheet shown straight-on as a clean PDF export. NO lamination, NO sheen, NO glare,
+> A FLAT, MATTE Claude-branded reference sheet shown straight-on as a clean PDF export. NO lamination, NO sheen, NO glare,
 > NO reflections, NO curl, NO drop shadow, NO photo of an object. Pure flat digital infographic, edge to edge.
-> MAXIMUM DENSITY BarCharts QuickStudy card: FOUR ultra-tight columns of very small 5–6pt text, near-zero white space.
-> Portrait 8.5x11. Cream #F5F0E8 background, charcoal #28251D text. [LEVEL] banners in [COLOR] with white text.
-> Tables: navy #0A0F1E header, zebra rows cream/#EDE8DF. Tan #EDE8DF boxes. Spell every word exactly.
-> TOP header: [brand / tagline / tab]. Title banner huge 'Claude' + lighter '[SUBTITLE]'. Full-width banner '[PANEL NAME]'.
+> MAXIMUM DENSITY ~100%: FOUR ultra-tight columns of very small 5–6pt text, near-zero white space.
+> Portrait 8.5x11. Warm cream #F0EAE0 background, espresso #1F1A17 text, terracotta #C15F3C accents, the Claude splat top-left.
+> Bold serif headlines + sans body. Section/[Claude-Lens] bars terracotta #C15F3C; [Expert-Lens] bars espresso #3A2E26 (cream text).
+> Tables: espresso #3A2E26 header, zebra rows cream #F0EAE0 / tan #E5DAC6. Tan #E5DAC6 boxes with terracotta left rule.
+> TOP header: splat + [brand / tagline / tab]. Title banner huge serif 'Claude' + lighter '[SUBTITLE]'. Full-width terracotta banner '[PANEL NAME]'.
 > COL 1 bar '[HEADING]': '[bullet]'; '[bullet]'… COL 2 … COL 3 … COL 4 … [tan box] …
-> BOTTOM navy footer, white centered: 'Follow Will Stewart for more human-centered AI insights - willstewart.ai - @willstewart'.
-> Style: authentic QuickStudy maximum-density 4-column FLAT MATTE print (not laminated, not a photo), tiny legible type,
-> fills the page, NO images, NO people. Spell every word exactly as written.
+> BOTTOM espresso footer, cream centered: 'Will Stewart - Anti-AI Guru - empower-core.com'.
+> Style: authentic Claude-branded maximum-density 4-column FLAT MATTE print (not laminated, not a photo), terracotta splat,
+> tiny legible type, fills the page, NO photos, NO people. Spell every word exactly as written.
