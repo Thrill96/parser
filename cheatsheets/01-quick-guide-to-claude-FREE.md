@@ -1,109 +1,75 @@
-# The Quick Guide to Claude — FREE Lead Magnet (deep content, 3 panels)
+# The Quick Guide to Claude — FREE (authentic QuickStudy laminated-card layout)
 
-> Will Stewart AI · "AI Quick Reference" series. Voice: human-centered, practical, plain-English.
-> Footer every page: *Will Stewart · Anti-AI Guru · empower-core.com*
-> Render: FLAT MATTE printed page / PDF look (NOT laminated, no glare). Portrait 8.5×11, 4 ultra-dense
-> columns at 5–6pt, edge-to-edge, BarCharts/QuickStudy density. Levels: Beginner=green, Intermediate=amber, Advanced=navy.
-> Models are CURRENT as of May 2026: Claude 4.x — Opus 4.7, Sonnet 4.6, Haiku 4.5. (Do NOT say "Claude 3".)
-
-## Build palette
-- **Use the Claude brand in STYLE.md §2:** warm cream `#F0EAE0`, espresso `#1F1A17` ink, terracotta `#C15F3C` accent, the splat mark, serif/sans.
-- Section banners terracotta; tables espresso header + zebra cream/tan `#E5DAC6`; tan example boxes; espresso footer (cream text).
-- Level tab only: Beginner clay `#C15F3C` · Intermediate burnt-amber `#B07A3C` · Advanced espresso `#3A2E26`.
+> Will Stewart AI · "AI Quick Reference" series. LAYOUT = QuickStudy card (STYLE §3b) — the Excel Tips & Tricks model.
+> Brand = Claude (STYLE §2): warm cream, terracotta, espresso, the splat, serif/sans. Footer: Will Stewart · Anti-AI Guru · empower-core.com.
+> NON-NEGOTIABLE: EXTREMELY DENSE, packed wall-to-wall like a software-manual page. Each page = 3 columns; EACH column holds
+> ~4 stacked topic sub-sections, every one introduced by its OWN small terracotta header bar. Near-zero whitespace, tiny 5–6pt,
+> sub-bullets, "OR" alternatives, embedded mini tables. Page 1 leads with the "How to Use" legend + "Contents" bars. Models = Claude 4.x.
 
 ---
 
-> LAYOUT = BENTO BOX (STYLE §3b). Each panel is a packed grid of rounded tiles of varying sizes — NOT columns.
+# PAGE 1 — HOW TO USE + BEGINNER TIPS
 
-# PANEL 1 — BEGINNER  (bento grid, ~12 tiles)
+**Top line:** "WILL STEWART AI" left · italic "WORLD'S FRIENDLIEST AI QUICK REFERENCE" center · faint vertical "QUICK REFERENCE" side tab.
+**Title bar (terracotta):** Claude splat + huge serif **"Claude"** + **"Tips & Tricks"** · small "A Quick Reference Guide" · clay BEGINNER tab.
+**HOW TO USE THIS GUIDE (bar + legend):** Color shows the level — light clay = Beginner, tan = Intermediate, deep = Advanced. Bullets are actions; **"OR"** marks an alternative; tables are for looking up; tinted boxes are examples to copy. No experience needed — each tip stands alone.
+**CONTENTS (bar):** Pg.1 How to Use · Beginner Tips | Pg.2 Intermediate: Prompt Patterns, Projects, Documents | Pg.3 Advanced: Techniques, Models, Systems, Troubleshooting.
+**BEGINNER TIPS (section banner)**
 
-**Title:** Claude splat top-left · "WILL STEWART AI" · big serif title *Claude — A Quick Reference Guide* · clay BEGINNER pill right · thin explainer bar: "New to Claude? Zero to confident — packed into one page."
+### COL 1
+**WHAT CLAUDE IS** — A family of AI models (Haiku, Sonnet, Opus) that read, write & reason over long text and images. · A thinking partner, not magic — you decide what's right. · It predicts helpful text; it doesn't know you or remember past chats by default.
+**THE 3 MODELS** *(mini table — MODEL | BEST FOR)* — Haiku 4.5 | fast & cheap · Sonnet 4.6 | the default · Opus 4.7 | deepest reasoning.
+**FREE vs PRO** — Free at claude.ai. OR Pro (~$20–30/mo): more usage, bigger files, Cowork.
+**START IN 2 MINUTES** — Make a free account · type in the box, press Enter · click "+" to attach a PDF/doc/image · New Chat per topic.
 
-**TILES (rounded cards, varying sizes, edge-to-edge, ~100% full):**
-1. **WHAT CLAUDE IS** — a family of AI models that read, write & reason over long text + images; a thinking partner, not magic; you type a prompt, it answers, you refine; works in many languages.
-2. **THE 3 MODELS** — Haiku 4.5: fast & cheap · Sonnet 4.6: the default · Opus 4.7: deepest reasoning.
-3. **FREE vs PRO** — Free at claude.ai · Pro (~$20–30/mo) adds usage, big files, Cowork.
-4. **YOUR FIRST 10 PROMPTS** *(large tile)* — Summarize this in 5 bullets · Notes → action list · Draft a friendly reply · 10 ideas for [niche] · Rewrite at 6th-grade level · Explain [X] like I'm 12 · Compare [A] vs [B] as a table · Bullets → LinkedIn post · 10 questions for a [sales call] · Checklist → SOP.
-5. **THE 4-PART PROMPT** — ROLE · CONTEXT · TASK · FORMAT. More of these = better answers.
-6. **RULES OF THUMB** — paste context · ask for 2–3 options · state constraints (length, tone, audience) · "ask me 5 questions first" · New Chat per topic.
-7. **FIX A BAD ANSWER** *(mini table)* — Too long → cut in half · Too stiff → warmer · Too vague → add an example · Made-up → "use only my facts" · Too generic → make it specific to me.
-8. **WATCH-OUTS** — confident even when wrong (verify) · may miss today's news/prices · each chat starts fresh; re-paste.
-9. **WORDS TO KNOW** — Prompt · Model · Token · Hallucination · Context.
-10. **NEVER PASTE** — passwords · card numbers · client secrets.
-11. **WHERE TO USE IT** — inbox · learning · planning · writing · decisions.
-12. **TRY THIS** *(solid terracotta accent tile, cream text)* — "You are my AI writing buddy. Ask me 5 questions about my business, then write a warm, confident 3-paragraph About section for my website."
+### COL 2
+**ANATOMY OF A GOOD PROMPT** — ROLE: "You are a careful editor." · CONTEXT: who/what/why · TASK: one thing · FORMAT: length, tone, table. More of the four = better answers.
+**YOUR FIRST 10 PROMPTS** — Summarize this in 5 bullets: [paste] · Notes → action list: [paste] · Draft a friendly reply: [paste] · 10 ideas for [niche] · Rewrite at a 6th-grade level: [paste] · Explain [escrow/APIs/taxes] like I'm 12 · Compare [A] vs [B] in a table · Bullets → a LinkedIn post: [paste] · 10 questions for a [sales call] · Checklist → an SOP: [paste].
+**TALK TO IT LIKE A TEAMMATE** — Be specific · one task at a time · show an example · ask it to ask you questions first · keep refining.
 
----
-
-# PANEL 2 — INTERMEDIATE (amber)
-
-**Banner:** CORE SKILLS & PATTERNS. *(Leans into Claude's strengths: long context, structured output, Projects & Artifacts.)*
-
-## COL 1 — PROMPT PATTERNS THAT ACTUALLY WORK
-*(name → one-line use)*
-- **Role:** "You are my [expert]…" — sets expertise & tone.
-- **Recipe:** "Go step by step: 1)… 2)…" — structured tasks.
-- **Critique & improve:** "Critique this in 3 bullets, then rewrite."
-- **Format:** "Output as a table: columns A, B, C."
-- **Checklist/SOP:** "Turn this into a checklist + SOP."
-- **Question-first:** "Ask me 5 questions, then propose a plan."
-- **Few-shot:** "Here are 2 examples I like: […]. Match that style."
-**RECIPE CARD (tan box):** Pattern = *Critique then improve.* Template = *"You are an expert editor for [audience]. First critique this [email] in 3 bullets, then rewrite it to fix the issues while keeping my voice."*
-
-## COL 2 — PROJECTS & ARTIFACTS (CLAUDE'S SECRET WEAPONS)
-- **Projects** = persistent workspaces. Load docs, notes, and standing instructions once; Claude keeps that context across every chat in the Project.
-- **Artifacts** = structured, editable outputs (docs, tables, code, even small apps) you refine — not just chat bubbles.
-- **Good Project candidates:** course build · client onboarding · SOP library · content calendar · research dossier.
-- **Move:** put your "business brief" + voice samples in the Project's instructions so every answer is on-brand.
-
-## COL 3 — WORK WITH DOCUMENTS & IMAGES
-- Summarize a 30-page PDF into a 1-page brief → *"Give me a 1-page brief: key points, risks, next steps."*
-- Compare multiple docs → *"Compare these two and list every conflict."*
-- Extract data → *"Pull every date, name, and $ figure into a table."*
-- Read a screenshot/slide → *"What's happening in this image? Explain it."*
-- Long-doc move: **paste the document first, ask your question last.**
-
-## COL 4 — TONE, EDITING & RIGHT-TOOL TABLE
-**Dial in tone:** name the reader + the feeling · paste a voice sample · set reading level · ban clichés.
-**Editing moves:** "Tighten 30%, keep my voice." · "Make line 1 a hook." · "Fix grammar only." · "Flag vague claims and make them specific."
-**RIGHT TOOL (table — TASK | USE):** Draft/rewrite/explain → Claude · Live prices/news/hours → web search · Final medical/legal/tax → a licensed pro · Math you must trust → a sheet, then verify.
+### COL 3
+**FIX A BAD ANSWER** *(table — PROBLEM | SAY THIS)* — Too long | Cut it in half · Too stiff | Warmer, like a friend · Too vague | Add an example · Made-up | Use only my facts · Too generic | Make it specific to me · Wrong shape | Put it in a table.
+**WATCH-OUTS** — Confident even when wrong — verify · may miss today's news/prices unless it searches · each chat starts fresh; re-paste.
+**WORDS TO KNOW** — Prompt: your request · Model: the version · Token: a chunk of text · Hallucination: confident wrong answer · Context: what it can see now.
+**STAY SAFE** — Never paste passwords, card numbers, client secrets · double-check medical/legal/money.
+**TRY THIS (tinted box)** — "You are my AI writing buddy. Ask me 5 questions about my business, then write a warm, confident 3-paragraph About section for my website."
 
 ---
 
-# PANEL 3 — ADVANCED (navy)
+# PAGE 2 — INTERMEDIATE TIPS
 
-**Banner:** POWER TECHNIQUES & SYSTEMS.
+**Title bar:** Claude splat + "Claude · Tips & Tricks" · amber INTERMEDIATE tab. **Section banner:** INTERMEDIATE TIPS.
 
-## COL 1 — THE TECHNIQUE STACK (research-backed)
-- **Chain-of-Thought:** "Think step by step before answering." Big accuracy jump on multi-step/logic tasks.
-- **Few-shot (2–5 examples):** paste 2–5 input→output pairs — the strongest lever for locking format/voice. Past 5 rarely helps.
-- **Self-consistency:** ask a hard question in 3 fresh chats; keep the answer that recurs. For high-stakes judgment.
-- **Self-refine:** "Critique your draft against this rubric, list flaws, then rewrite." It fixes its own work.
-- **Tree-of-Thoughts:** "Generate 3 approaches, score each 1–10 on [criteria], expand the winner."
-- **Meta-prompting:** "Write the ideal prompt for this goal, then answer it."
-- **Decomposition:** outline → draft → critique → final beats one mega-prompt.
+### COL 1
+**PROMPT PATTERNS THAT WORK** — Role: "You are my [expert]." · Recipe: "Go step by step: 1)… 2)…" · Critique & improve: "Critique in 3 bullets, then rewrite." · Format: "Output as a table." · Checklist/SOP. · Question-first: "Ask me 5 questions, then plan." · Few-shot: "Here are 2 examples — match the style."
+**GET THE TONE RIGHT** — Name the reader + the feeling · paste a voice sample to mimic · set the reading level · ban clichés/buzzwords.
 
-## COL 2 — CHOOSE THE RIGHT MODEL + CLAUDE-SPECIFIC LEVERS
-**MODEL (table — MODEL | BEST FOR):**
-- **Haiku 4.5** | fastest & cheapest; bulk processing, real-time support.
-- **Sonnet 4.6** | the default; balanced everyday knowledge work.
-- **Opus 4.7** | deepest reasoning; strategy, complex analysis, code, high-stakes.
-**Claude-specific levers (from Anthropic's docs):** ask *directly* — Claude 4 rewards explicit instructions · use XML tags `<context>…</context> <task>…</task>` · tell it what TO do, not just what to avoid · show the exact output skeleton you want.
+### COL 2
+**PROJECTS & ARTIFACTS** — Projects = persistent workspaces; load docs + a brief once, reused across every chat. · Artifacts = editable docs/tables/code, not chat bubbles. · Good Projects: course build · client onboarding · SOP library · content calendar.
+**WORK WITH LONG DOCS** — Paste, then ask ONE question at a time · "Summarize, then list action items + owners." · "Pull every date/name/$ into a table." · "What's missing or contradictory?" · Move: paste the doc FIRST, ask LAST.
 
-## COL 3 — SYSTEM PROMPTS & GUARDRAILS
-A system prompt = standing instructions Claude follows the whole chat. Reusable snippets:
-**(table — GOAL | SNIPPET):**
-- Keep my voice | "You are my ghostwriter. Learn my style from these samples and mimic it."
-- Be concise | "Short paragraphs and bullets. No jargon."
-- Reduce made-up answers | "If unsure, say so and ask for more info. Use only what I provide."
-- Stay on format | "Always reply using this template: […]."
-**Build systems, not one-offs:** keep a reusable grading rubric · save 3 "golden examples" to few-shot future work · keep your best multi-step chains as templates.
+### COL 3
+**EDIT LIKE A PRO** — "Tighten 30%, keep my voice." · "Make line 1 a hook." · "Fix grammar only." · "Flag vague claims and make them specific."
+**RIGHT TOOL FOR THE JOB** *(table — TASK | USE)* — Draft/rewrite/explain | Claude · Live facts/prices | Web search · Final medical/legal/tax | A pro · Math you must trust | A sheet, then verify.
+**COMMON MISTAKES → FIX** *(table)* — Vague | add who + goal · One huge message | split into steps · No example | show one · Trust draft 1 | ask for edits.
+**RECIPE CARD (tinted box)** — "You are an expert editor for [audience]. First critique this email in 3 bullets, then rewrite it to fix the issues while keeping my voice."
 
-## COL 4 — AGENTS TEASER + TROUBLESHOOTING + CTA
-**What's next (agentic Claude):** **Cowork** — an autonomous assistant that works in the background on your desktop. **Claude for Small Business** — 15 ready-to-run workflows inside your existing subscription (see the SMB guide).
-**TROUBLESHOOTING (table — PROBLEM | CAUSE | FIX):**
-- Still generic | weak context | paste real examples; move up to Sonnet/Opus
-- Misses details in long docs | overload | chunk + summarize first; use Projects
-- Too slow/pricey | Opus on trivial work | drop small tasks to Haiku/Sonnet
-- Forgot earlier info | new chat | re-paste, or use a Project
-**CTA box (teal):** Want the full playbook? *Claude for Small Business Owners* → empower-core.com · [QR].
+---
+
+# PAGE 3 — ADVANCED TIPS
+
+**Title bar:** Claude splat + "Claude · Tips & Tricks" · espresso ADVANCED tab. **Section banner:** ADVANCED TIPS.
+
+### COL 1
+**THE TECHNIQUE STACK** — Chain-of-Thought: "Think step by step." · Few-shot (2–5 examples) = strongest format/voice lever. · Self-consistency: ask 3× in fresh chats, keep the recurring answer. · Self-refine: "Critique vs a rubric, then rewrite." · Tree-of-Thoughts: "3 approaches, score, expand the winner." · Meta-prompt: "Write the ideal prompt, then answer it." · Decompose: outline → draft → critique → final.
+
+### COL 2
+**CHOOSE THE RIGHT MODEL** *(table — MODEL | BEST FOR)* — Haiku 4.5 | bulk, real-time · Sonnet 4.6 | the default; everyday work · Opus 4.7 | strategy, hard reasoning, code.
+**CLAUDE-SPECIFIC LEVERS** — Ask directly (Claude 4 rewards explicit asks) · use XML tags `<context> <task>` · long docs first, question last · tell it what TO do · prefill the output skeleton · use Projects for memory.
+**SYSTEM PROMPTS** *(table — GOAL | SNIPPET)* — Keep my voice | "Ghostwriter; mimic these samples" · Be concise | "Short paras + bullets" · Fewer made-up facts | "If unsure, say so; use only my input" · Lock format | "Always reply in this template."
+
+### COL 3
+**BUILD SYSTEMS, NOT ONE-OFFS** — Keep a reusable grading rubric · save 3 golden examples to few-shot · store best chains as templates · keep a prompt swipe file.
+**WHAT'S NEXT (AGENTIC CLAUDE)** — Cowork: an autonomous assistant working in the background. · Claude for Small Business: 15 ready-to-run workflows on your existing plan.
+**TROUBLESHOOTING** *(table — PROBLEM | FIX)* — Still generic | examples + go Opus · Long-doc misses | chunk + Projects · Slow/pricey | drop to Haiku · Forgot earlier | re-paste or use a Project.
+**WANT THE FULL PLAYBOOK? (CTA box)** — Get the paid practitioner guides at empower-core.com.
