@@ -12,8 +12,10 @@ command and any future session must follow this exactly so the look/voice never 
 - Credits: ~4 per 4K image, far less at 1k. A 3-panel final guide ≈ 12 credits. Check `balance` if unsure.
 
 ## 1. Look & finish (NON-NEGOTIABLE)
-- **FLAT MATTE printed page / PDF.** Negative list: NO lamination, NO plastic sheen, NO glare, NO reflections,
-  NO page curl, NO drop shadow, NO photo of a physical object. "Pure flat digital infographic, edge to edge."
+- **FULL-BLEED FLAT PDF PAGE.** The page artwork must FILL THE ENTIRE IMAGE FRAME, edge to edge (like a screenshot of a
+  PDF at 100%). NO background, NO desk/table, NO hand, NO border, NO drop shadow, NO rounded card corners, NO 3D object.
+- **NEVER write the words "laminated" or "card" in the prompt** — they make the model photograph a glossy card on a
+  surface. Say "flat digital PDF page / poster," "reference sheet," "full-bleed." Keep "QuickStudy-STYLE layout" for structure only.
 - **It must LOOK like Claude** (see §2). Warm, editorial, premium — instantly recognizable as Claude in a LinkedIn feed.
 - **Density target ~100% cognitive load** — borderline overwhelming, jam-packed, BarCharts/QuickStudy style: FOUR
   ultra-tight columns, ~5–6pt text, tight leading, near-zero white space. (FIVE columns failed — stay at four.)
