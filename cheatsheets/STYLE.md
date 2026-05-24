@@ -12,19 +12,26 @@ command and any future session must follow this exactly so the look/voice never 
 - Credits: ~4 per 4K image, far less at 1k. A 3-panel final guide ≈ 12 credits. Check `balance` if unsure.
 
 ## 1. Look & finish (NON-NEGOTIABLE)
-- **FLAT MATTE printed page / PDF.** Always include the negative list: NO lamination, NO plastic sheen, NO glare,
-  NO reflections, NO page curl, NO drop shadow, NO photo of a physical object. "Pure flat digital infographic, edge to edge."
-- **Maximum density**, BarCharts/QuickStudy style: FOUR ultra-tight columns, ~5–6pt text, tight leading,
-  minimal margins, near-zero white space, wall-to-wall content.
-- No photos, no people, no decorative icons (simple table rules/QR squares only).
+- **FLAT MATTE printed page / PDF.** Negative list: NO lamination, NO plastic sheen, NO glare, NO reflections,
+  NO page curl, NO drop shadow, NO photo of a physical object. "Pure flat digital infographic, edge to edge."
+- **It must LOOK like Claude** (see §2). Warm, editorial, premium — instantly recognizable as Claude in a LinkedIn feed.
+- **Density target ~100% cognitive load** — borderline overwhelming, jam-packed, BarCharts/QuickStudy style: FOUR
+  ultra-tight columns, ~5–6pt text, tight leading, near-zero white space. (FIVE columns failed — stay at four.)
+- **Show, don't just tell:** include worked examples / swipe boxes / sample copy where the topic allows.
+- The only allowed graphic is the Claude splat mark (§2). No photos, no people, no stock icons.
 - Always end the prompt: "Spell every word exactly as written."
 
-## 2. Palette (hex)
-- Background cream `#F5F0E8` · body charcoal `#28251D`.
-- Beginner = green-teal `#01696F` · Intermediate = amber/gold `#D19900` · Advanced = navy `#0A0F1E` (banners, white text).
-- Tables: navy or teal header row; zebra rows `#F5F0E8` / `#EDE8DF`.
-- Example/recipe/template/ROI boxes: tan `#EDE8DF`. CTA boxes: teal or navy with white text. Footer: navy, white text.
-- **Dual-lens (practitioner guides):** "Owner Lens" bars = amber `#D19900`; "Claude Lens" bars = teal `#01696F`.
+## 2. Palette & brand — CLAUDE IDENTITY (terracotta family)
+- **Background:** warm cream `#F0EAE0` (Claude paper). Dark variant for a feature/cover: espresso `#262019` + cream text.
+- **Primary accent:** Claude clay / terracotta `#C15F3C` (~`#CC785C`). Banners, the splat, rules, CTAs.
+- **Ink:** espresso near-black `#1F1A17`.
+- **Warm neutral:** taupe/tan `#D8C7AD` for section-header bars (ink text) and alt zebra rows.
+- **Tables:** espresso `#3A2E26` header row (cream text); zebra rows cream `#F0EAE0` / tan `#E5DAC6`.
+- **Boxes:** tan `#E5DAC6` example boxes with a terracotta left rule; CTA box espresso or terracotta, cream text. Footer espresso, cream text.
+- **The Claude splat:** a terracotta rounded sunburst/asterisk (~10–12 tapered rays) — top-left of the header; may repeat tiny as bullets.
+- **Type:** bold SERIF headlines (Tiempos/Georgia feel) + clean SANS body (Styrene/Helvetica feel). Warm, Anthropic-editorial.
+- **Level cue (small tab only):** Beginner clay `#C15F3C` · Intermediate burnt-amber `#B07A3C` · Advanced espresso `#3A2E26`.
+- **Dual-lens:** the Expert Lens (Ogilvy/Owner) = espresso `#3A2E26` bars; the **Claude Lens = terracotta `#C15F3C`** bars; both cream text.
 
 ## 3. Layout skeleton (every page)
 1. Top header: brand left, italic tagline center, level/panel tab right.

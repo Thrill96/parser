@@ -2,8 +2,10 @@
 
 > Will Stewart AI · "AI Practitioner Series." Grounded in DAVID OGILVY's own words:
 > "How to create advertising that sells" (the 38 principles) + "Ogilvy on Advertising" / the 7 tips.
-> DUAL VOICE: **Ogilvy Lens** (his law, in his words) in amber `#D19900`; **Claude Lens** (the prompt that
-> executes it) in teal `#01696F`. The whole product = an expert's frameworks × how to run them with AI.
+> DUAL VOICE: **Ogilvy Lens** (his law, in his words) = espresso `#3A2E26`; **Claude Lens** (the prompt that
+> executes it) = Claude terracotta `#C15F3C`. The whole product = an expert's frameworks × how to run them with AI.
+> BRAND: full Claude identity per STYLE §2 — warm cream, terracotta, the splat mark, editorial serif/sans.
+> DENSITY: ~100% cognitive load. Use the famous-ads SWIPE box so readers see real Ogilvy copy, not just rules.
 > Footer every page: *Follow Will Stewart for more human-centered AI insights · willstewart.ai · @willstewart*
 > Render per cheatsheets/STYLE.md: FLAT MATTE, 4 columns, BarCharts density. Low-res for drafts, 4K for finals.
 > Heresy nod (header italic): "Ogilvy never met an LLM. His rules still decide whether your copy sells."
@@ -48,7 +50,13 @@
 
 # PANEL 2 — THE COPY ENGINE: LAW → PROMPT
 
-**Banner:** FROM OGILVY'S LAW TO A CLAUDE PROMPT. *(Each column: the law in amber, the prompt in teal.)*
+**Banner:** FROM OGILVY'S LAW TO A CLAUDE PROMPT. *(Each column: the law in espresso, the prompt in terracotta.)*
+
+**SWIPE BOX (full-width, tan) — Ogilvy ads that sold (study them):**
+- *"At 60 miles an hour the loudest noise in this new Rolls-Royce comes from the electric clock."* (specific > superlative)
+- *"The man in the Hathaway shirt"* — the eyepatch: pure story appeal, ran ~20 years.
+- *Dove: "creams your skin while you wash"* — one promise, ¼ cleansing cream, repeated for decades.
+- Flag the prospect: *"MOTHERS… ", "GOING TO EUROPE?"* · News openers: *"Introducing… / Announcing… / Now…"*
 
 ## COL 1 — DO YOUR HOMEWORK *(research first)*
 **Ogilvy:** "You cannot write copy unless you know who you're writing for, how that person thinks, and what they need." (He trained under Gallup.)
