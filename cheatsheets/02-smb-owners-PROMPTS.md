@@ -1,8 +1,9 @@
 # Claude for Small Business Owners — PASTE-READY Higgsfield prompts (Gerber × Hormozi)
 
 > Anchor experts: **Michael Gerber (The E-Myth — build the machine)** + **Alex Hormozi ($100M Offers / Leads / Money Models — fill the machine + the cash engine)**,
-> operationalized into Claude prompts. Render method = WINNING-FORMULA.md (landscape, single panel, sienna header bars,
-> 7–8pt, zero padding, inline GREEN/AMBER/NAVY level pills, espresso masthead/footer, cream #f7f4ee, "InDesign print shop").
+> operationalized into Claude prompts. ASPECT RATIO: **4:5** (set in Higgsfield). Render method = WINNING-FORMULA.md
+> (4:5 portrait, single page, three equal columns, sienna header bars, 7–8pt, zero padding, inline GREEN/AMBER/NAVY
+> level pills, espresso masthead/footer, cream #f7f4ee, "InDesign print shop").
 > Models current 2026: Claude 4.x (Haiku 4.5, Sonnet 4.6, Opus 4.7). Frameworks attributed; no long verbatim excerpts.
 > Paste each PANEL prompt into Higgsfield (nano-banana), one at a time.
 >
@@ -15,7 +16,7 @@
 
 ## PANEL 1
 
-Generate a BarCharts QuickStudy–type reference card. US Letter LANDSCAPE, single panel. Warm cream/tan parchment background (#f7f4ee).
+Generate a BarCharts QuickStudy–type reference card. US Letter PORTRAIT, 4:5, single page. Warm cream/tan parchment background (#f7f4ee).
 TOP MASTHEAD: thin dark espresso bar — left small white caps "WILL STEWART · ANTI-AI GURU", right small white italic "empower-core.com".
 MAIN TITLE BAR: large dark espresso banner, bold white serif centered "CLAUDE FOR SMALL BUSINESS OWNERS"; smaller white italic subtitle "Build the Machine (Gerber) · Fill the Machine (Hormozi) · Run It with AI · 2026 Edition".
 Three equal vertical columns separated by hairline 0.5pt dark charcoal rules. Burnt sienna (#8B3A1A) section header bars — thin 18–20pt label strips, white bold all-caps. Body 7–8pt dense sans-serif, charcoal #2a2a2a. ZERO internal padding — text flush under each bar. Paper grain texture. Printed InDesign aesthetic.
@@ -73,7 +74,7 @@ CRITICAL RENDERING RULES: Body 7–8pt. Header bars thin 18–20pt. Hairline 0.5
 
 ## PANEL 2
 
-Generate a BarCharts QuickStudy–type reference card. US Letter LANDSCAPE, single panel. Warm cream/tan parchment background (#f7f4ee).
+Generate a BarCharts QuickStudy–type reference card. US Letter PORTRAIT, 4:5, single page. Warm cream/tan parchment background (#f7f4ee).
 TOP MASTHEAD: thin dark espresso bar — left "WILL STEWART · ANTI-AI GURU", right italic "empower-core.com".
 MAIN TITLE BAR: large dark espresso banner, bold white serif centered "BUILD THE MACHINE"; white italic subtitle "Systems & Delegation, the Gerber Way × Claude · 2026 Edition".
 Three equal columns, hairline 0.5pt dark rules. Burnt sienna (#8B3A1A) thin 18–20pt header bars, white bold all-caps. Body 7–8pt dense sans-serif #2a2a2a. ZERO padding. Paper grain. InDesign aesthetic. FOOTER: espresso bar, white "WILL STEWART AI · Anti-AI Guru · empower-core.com".
@@ -115,7 +116,7 @@ CRITICAL RENDERING RULES: Body 7–8pt. Thin 18–20pt header bars. Hairline 0.5
 
 ## PANEL 3
 
-Generate a BarCharts QuickStudy–type reference card. US Letter LANDSCAPE, single panel. Warm cream/tan parchment background (#f7f4ee).
+Generate a BarCharts QuickStudy–type reference card. US Letter PORTRAIT, 4:5, single page. Warm cream/tan parchment background (#f7f4ee).
 TOP MASTHEAD: thin dark espresso bar — left "WILL STEWART · ANTI-AI GURU", right italic "empower-core.com".
 MAIN TITLE BAR: large dark espresso banner, bold white serif centered "FILL THE MACHINE"; white italic subtitle "Offers, Leads & ROI, the Hormozi Way × Claude · 2026 Edition".
 Three equal columns, hairline 0.5pt rules. Burnt sienna (#8B3A1A) thin header bars, white bold all-caps. Body 7–8pt dense sans-serif #2a2a2a. ZERO padding. Paper grain. InDesign aesthetic. FOOTER espresso bar, white "WILL STEWART AI · Anti-AI Guru · empower-core.com".
@@ -165,7 +166,7 @@ CRITICAL RENDERING RULES: Body 7–8pt. Thin 18–20pt header bars. Hairline 0.5
 
 ## PANEL 4
 
-Generate a BarCharts QuickStudy–type reference card. US Letter LANDSCAPE, single panel. Warm cream/tan parchment background (#f7f4ee).
+Generate a BarCharts QuickStudy–type reference card. US Letter PORTRAIT, 4:5, single page. Warm cream/tan parchment background (#f7f4ee).
 TOP MASTHEAD: thin dark espresso bar — left "WILL STEWART · ANTI-AI GURU", right italic "empower-core.com".
 MAIN TITLE BAR: large dark espresso banner, bold white serif centered "THE MONEY MODEL"; white italic subtitle "Make Customers Self-Fund Your Growth — Hormozi's Cash Engine × Claude · 2026 Edition".
 Three equal columns, hairline 0.5pt rules. Burnt sienna (#8B3A1A) thin 18–20pt header bars, white bold all-caps. Body 7–8pt dense sans-serif #2a2a2a. ZERO padding. Paper grain. InDesign aesthetic. FOOTER espresso bar, white "WILL STEWART AI · Anti-AI Guru · empower-core.com".

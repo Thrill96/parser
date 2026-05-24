@@ -1,17 +1,18 @@
 # THE WINNING FORMULA — QuickStudy cards that actually work
 
-> This is the method that produced the final "A Quick Guide to Claude AI" set (3 landscape panels).
+> **ASPECT RATIO: 4:5 (set in Higgsfield/nano-banana). This is locked. Do NOT use 4:3 or 16:9.**
 > Workflow: **deep content (Perplexity or Claude) → image generation (Higgsfield / nano-banana) with the
-> exact art-direction prompt below.** Landscape, single panel per page. Keep this locked — don't re-derive it.
+> exact art-direction prompt below.** 4:5 portrait page, single panel per page, three equal columns.
+> Keep this locked — don't re-derive it.
 
 ## The two-step workflow
 1. **Write the content first** (dense, with inline level tags). Sources: these `cheatsheets/*.md` files, or research.
    Tag each item BEGINNER / INTERMEDIATE / ADVANCED so the badges can sit inline.
 2. **Render as an image** in Higgsfield (nano-banana). One prompt per panel. Paste the art-direction template +
-   the column content. Landscape US Letter.
+   the column content. 4:5 portrait, US Letter.
 
 ## The magic that made it click
-- **Landscape, single panel** (not portrait), three equal columns, hairline 0.5pt vertical rules.
+- **4:5 portrait page, single panel**, three equal columns, hairline 0.5pt vertical rules.
 - **"Printed InDesign / press aesthetic. If it looks like an infographic, the font is too large and the padding too generous."** ← the key line.
 - **Body 7–8pt**, dense sans-serif; **thin 18–20pt sienna header bars**; **zero internal padding** (text flush under bars).
 - **Level badges INLINE** with the text, not floating.
@@ -25,7 +26,7 @@
 - Footer: "WILL STEWART AI · Anti-AI Guru · empower-core.com".
 
 ## Reusable art-direction template (fill the [BRACKETS])
-> Generate a BarCharts QuickStudy–type reference card. US Letter LANDSCAPE, single panel. Warm cream/tan parchment
+> Generate a BarCharts QuickStudy–type reference card. US Letter PORTRAIT, 4:5, single page. Warm cream/tan parchment
 > background (#f7f4ee). TOP MASTHEAD: thin dark espresso bar — left small white caps "WILL STEWART · ANTI-AI GURU",
 > right small white italic "empower-core.com". MAIN TITLE BAR: large dark espresso banner, bold white serif centered
 > "[TITLE]"; smaller white italic subtitle "[SUBTITLE] · 2026 Edition". THREE equal vertical columns separated by
