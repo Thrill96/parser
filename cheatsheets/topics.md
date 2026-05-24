@@ -16,9 +16,10 @@ Fill one row. Only **Topic** is required; the rest sharpen the output.
 |---|-------|------|--------------------|--------|-----------------|--------|
 | 1 | Quick Guide to Claude | free | Curious users, creators, solo operators | 3 (Beg/Int/Adv) | Anthropic docs; prompt-eng research | rendered |
 | 2 | Claude for Small Business Owners | paid | $500K–$5M owner-operator (written from $10M seat) | 3 (dual-lens) | Claude for Small Business; Hormozi/StoryBrand/Cialdini/E-Myth/ToC | rendered |
-| 3 | _e.g. Claude for Contracts_ | paid | _15-yr contracts attorney_ | 3 | _your books/POV here_ | _queued_ |
-| 4 |  |  |  |  |  |  |
+| 3 | Claude for Copywriting | paid | Founders, marketers, copywriters (Ogilvy authority) | 3 (dual-lens: Ogilvy/Claude) | David Ogilvy "How to create advertising that sells" (38 principles) + 7 tips PDFs | drafted (awaiting approval) |
+| 4 | _e.g. Claude for Contracts_ | paid | _15-yr contracts attorney_ | 3 | _your books/POV here_ | _queued_ |
 
 ## Rendered output index
 - 01 Quick Guide to Claude (FREE): `01-quick-guide-to-claude-FREE.md`
 - 02 Claude for Small Business Owners (PAID): `02-claude-for-smb-owners-PAID.md`
+- 03 Claude for Copywriting — the Ogilvy Method (PAID): `03-claude-for-copywriting-PAID.md`
