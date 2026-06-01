@@ -1,0 +1,31 @@
+{
+  "name": "aeo-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Engine Optimization monitor — tracks whether ChatGPT, Claude, Gemini, and Perplexity can find, recommend, and correctly identify a brand.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:init": "node scripts/init-db.mjs",
+    "db:seed": "node scripts/seed-db.mjs",
+    "scan": "node scripts/run-scan.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@libsql/client": "^0.14.0",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.35"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/aeo-scan",
+      "schedule": "0 6 * * 0"
+    },
+    {
+      "path": "/api/cron/schema-audit",
+      "schedule": "0 7 * * 0"
+    }
+  ]
+}

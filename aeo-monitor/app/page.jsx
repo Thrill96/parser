@@ -1,0 +1,105 @@
+import ScoreCard from './components/ScoreCard.jsx';
+import EngineBreakdown from './components/EngineBreakdown.jsx';
+import SchemaCard from './components/SchemaCard.jsx';
+import TrendChart from './components/TrendChart.jsx';
+import ResultsTable from './components/ResultsTable.jsx';
+import CompetitorView from './components/CompetitorView.jsx';
+import RunScanButton from './components/RunScanButton.jsx';
+import {
+  getPrimaryDomain,
+  getLatestVisibility,
+  getVisibilityTrend,
+  getLatestResults,
+  getLatestSchemaAudit,
+  getCompetitorStats,
+} from '../lib/dashboard-data.js';
+
+export const dynamic = 'force-dynamic';
+
+function SetupNotice({ error }) {
+  return (
+    <div className="container">
+      <div className="header">
+        <div>
+          <h1>AEO Monitor</h1>
+          <div className="sub">AI Engine Optimization tracking</div>
+        </div>
+      </div>
+      <div className="empty">
+        <h2 style={{ color: 'var(--text)' }}>Not configured yet</h2>
+        <p>
+          The database isn&apos;t reachable or no domain has been seeded.
+          {error ? (
+            <>
+              <br />
+              <code style={{ color: 'var(--bad)' }}>{error}</code>
+            </>
+          ) : null}
+        </p>
+        <p className="muted" style={{ maxWidth: 560, margin: '0 auto' }}>
+          Set <code>TURSO_DATABASE_URL</code> (and <code>TURSO_AUTH_TOKEN</code> for a hosted DB),
+          then run <code>npm run db:init</code> and <code>npm run db:seed</code>. See the README.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default async function Dashboard() {
+  let domain;
+  try {
+    domain = await getPrimaryDomain();
+  } catch (err) {
+    return <SetupNotice error={err.message} />;
+  }
+  if (!domain) return <SetupNotice />;
+
+  const [visibility, trend, results, schema, competitors] = await Promise.all([
+    getLatestVisibility(domain.id),
+    getVisibilityTrend(domain.id, 12),
+    getLatestResults(domain.id),
+    getLatestSchemaAudit(domain.id),
+    getCompetitorStats(domain.id),
+  ]);
+
+  return (
+    <div className="container">
+      <div className="header">
+        <div>
+          <h1>AEO Monitor — {domain.brand_name}</h1>
+          <div className="sub">
+            {domain.domain}
+            {domain.service_category ? ` · ${domain.service_category}` : ''}
+          </div>
+        </div>
+        <RunScanButton domainId={domain.id} />
+      </div>
+
+      <div className="grid cols-2" style={{ marginBottom: 16 }}>
+        <ScoreCard
+          score={visibility?.overall_score ?? null}
+          competitorDisplacement={visibility?.competitor_displacement ?? null}
+          scoreDate={visibility?.score_date}
+        />
+        <SchemaCard audit={schema} />
+      </div>
+
+      <div style={{ marginBottom: 16 }}>
+        <EngineBreakdown visibility={visibility} />
+      </div>
+
+      <div className="panel" style={{ marginBottom: 16 }}>
+        <h2>Visibility Trend (last 12 scans)</h2>
+        <TrendChart data={trend} />
+      </div>
+
+      <div className="grid cols-2" style={{ marginBottom: 16 }}>
+        <div className="panel">
+          <h2>Prompt Results — latest run</h2>
+          <ResultsTable rows={results} />
+        </div>
+        <CompetitorView competitors={competitors} />
+      </div>
+    </div>
+  );
+}
