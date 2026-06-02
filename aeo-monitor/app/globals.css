@@ -254,3 +254,80 @@ details.resp pre {
   margin-top: 6px;
   color: var(--muted);
 }
+
+/* ── Shock Report ─────────────────────────────────────────────── */
+.report-hero {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 28px;
+  background: linear-gradient(160deg, var(--panel) 0%, var(--panel-2) 100%);
+  margin-bottom: 18px;
+}
+.report-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  color: var(--muted);
+}
+.report-headline {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 8px 0 4px;
+}
+.report-score-wrap {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #08101f;
+  font-weight: 700;
+  padding: 12px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.report-foot {
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 24px;
+}
+
+/* Print = clean light document */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .container {
+    padding: 0;
+    max-width: 100%;
+  }
+  .panel,
+  .report-hero {
+    background: #fff !important;
+    border-color: #ccc !important;
+    color: #111 !important;
+    break-inside: avoid;
+  }
+  .panel h2,
+  .report-kicker,
+  .muted {
+    color: #555 !important;
+  }
+  .cta {
+    background: #fff !important;
+    color: #111 !important;
+    border: 1px solid #111;
+  }
+}
