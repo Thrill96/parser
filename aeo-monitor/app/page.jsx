@@ -86,6 +86,9 @@ export default async function Dashboard({ searchParams }) {
         </div>
         <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
           <DomainSwitcher domains={domains} currentId={domain.id} />
+          <Link href="/prospects" className="pill" style={{ padding: '7px 12px' }}>
+            Prospecting →
+          </Link>
           <Link href={`/report?domain=${domain.id}`} className="pill" style={{ padding: '7px 12px' }}>
             Client Report →
           </Link>

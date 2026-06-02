@@ -110,6 +110,24 @@ CREATE TABLE IF NOT EXISTS fix_packs (
     FOREIGN KEY (domain_id) REFERENCES domains(id)
 );
 
+-- Lightweight prospecting audits (bulk hit-list for outreach)
+CREATE TABLE IF NOT EXISTS prospects (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    domain TEXT NOT NULL,
+    brand_name TEXT,
+    service_category TEXT,
+    location TEXT,
+    engine TEXT,                   -- engine used for the quick AI check
+    prompts_tested INTEGER,
+    appeared INTEGER,              -- prompts where the brand showed up
+    ai_score INTEGER,             -- 0-100 quick AI visibility
+    schema_score INTEGER,         -- 0-100
+    opportunity_score INTEGER,    -- 0-100, higher = better sales target
+    top_competitors TEXT,          -- JSON array of competitors AI named
+    promoted_domain_id INTEGER,   -- set once promoted to a full tracked domain
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
 -- Indexes
 CREATE INDEX IF NOT EXISTS idx_results_domain_date ON results(domain_id, run_date);
 CREATE INDEX IF NOT EXISTS idx_results_engine ON results(engine);

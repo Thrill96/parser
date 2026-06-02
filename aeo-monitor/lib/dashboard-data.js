@@ -10,6 +10,19 @@ export async function getAllDomains() {
   return all('SELECT id, domain, brand_name FROM domains ORDER BY id');
 }
 
+export async function getProspects() {
+  const rows = await all('SELECT * FROM prospects ORDER BY opportunity_score DESC, id DESC');
+  return rows.map((r) => {
+    let comps = [];
+    try {
+      comps = JSON.parse(r.top_competitors || '[]');
+    } catch {
+      comps = [];
+    }
+    return { ...r, top_competitors: comps };
+  });
+}
+
 export async function getDomainById(id) {
   return one('SELECT * FROM domains WHERE id = ?', [id]);
 }
