@@ -6,8 +6,12 @@ import ResultsTable from './components/ResultsTable.jsx';
 import CompetitorView from './components/CompetitorView.jsx';
 import Recommendations from './components/Recommendations.jsx';
 import RunScanButton from './components/RunScanButton.jsx';
+import DomainSwitcher from './components/DomainSwitcher.jsx';
+import Link from 'next/link';
 import {
   getPrimaryDomain,
+  getAllDomains,
+  getDomainById,
   getLatestVisibility,
   getVisibilityTrend,
   getLatestResults,
@@ -47,13 +51,18 @@ function SetupNotice({ error }) {
   );
 }
 
-export default async function Dashboard() {
-  let domain;
+export default async function Dashboard({ searchParams }) {
+  let domains;
   try {
-    domain = await getPrimaryDomain();
+    domains = await getAllDomains();
   } catch (err) {
     return <SetupNotice error={err.message} />;
   }
+  if (!domains || domains.length === 0) return <SetupNotice />;
+
+  const requestedId = searchParams?.domain ? Number(searchParams.domain) : null;
+  const domain =
+    (requestedId && (await getDomainById(requestedId))) || (await getPrimaryDomain());
   if (!domain) return <SetupNotice />;
 
   const [visibility, trend, results, schema, competitors, recommendations] = await Promise.all([
@@ -75,7 +84,13 @@ export default async function Dashboard() {
             {domain.service_category ? ` · ${domain.service_category}` : ''}
           </div>
         </div>
-        <RunScanButton domainId={domain.id} />
+        <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
+          <DomainSwitcher domains={domains} currentId={domain.id} />
+          <Link href={`/fix-pack?domain=${domain.id}`} className="pill" style={{ padding: '7px 12px' }}>
+            Fix Pack →
+          </Link>
+          <RunScanButton domainId={domain.id} />
+        </div>
       </div>
 
       <div className="grid cols-2" style={{ marginBottom: 16 }}>

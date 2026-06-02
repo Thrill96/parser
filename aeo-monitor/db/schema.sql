@@ -94,6 +94,19 @@ CREATE TABLE IF NOT EXISTS recommendations (
     FOREIGN KEY (domain_id) REFERENCES domains(id)
 );
 
+-- Claude-generated "Fix Pack" — the ready-to-paste deliverables (Rung 2)
+CREATE TABLE IF NOT EXISTS fix_packs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    domain_id INTEGER NOT NULL,
+    gen_date DATE NOT NULL,
+    cms TEXT,                      -- detected platform id (wordpress, squarespace, ...)
+    cms_label TEXT,                -- human label
+    items TEXT,                    -- JSON array of {title,type,format,content,where,instructions}
+    offsite_checklist TEXT,        -- JSON array of brief off-site actions
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (domain_id) REFERENCES domains(id)
+);
+
 -- Indexes
 CREATE INDEX IF NOT EXISTS idx_results_domain_date ON results(domain_id, run_date);
 CREATE INDEX IF NOT EXISTS idx_results_engine ON results(engine);

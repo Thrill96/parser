@@ -6,6 +6,14 @@ export async function getPrimaryDomain() {
   return one('SELECT * FROM domains ORDER BY id LIMIT 1');
 }
 
+export async function getAllDomains() {
+  return all('SELECT id, domain, brand_name FROM domains ORDER BY id');
+}
+
+export async function getDomainById(id) {
+  return one('SELECT * FROM domains WHERE id = ?', [id]);
+}
+
 export async function getLatestVisibility(domainId) {
   return one(
     'SELECT * FROM visibility_scores WHERE domain_id = ? ORDER BY score_date DESC, id DESC LIMIT 1',
@@ -56,6 +64,27 @@ export async function getLatestRecommendations(domainId) {
     recommendations = [];
   }
   return { summary: row.summary, gen_date: row.gen_date, recommendations };
+}
+
+export async function getLatestFixPack(domainId) {
+  const row = await one(
+    'SELECT * FROM fix_packs WHERE domain_id = ? ORDER BY gen_date DESC, id DESC LIMIT 1',
+    [domainId]
+  );
+  if (!row) return null;
+  const safe = (s) => {
+    try {
+      return JSON.parse(s || '[]');
+    } catch {
+      return [];
+    }
+  };
+  return {
+    gen_date: row.gen_date,
+    cms_label: row.cms_label,
+    items: safe(row.items),
+    offsite_checklist: safe(row.offsite_checklist),
+  };
 }
 
 export async function getLatestSchemaAudit(domainId) {
