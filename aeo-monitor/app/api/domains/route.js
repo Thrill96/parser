@@ -1,7 +1,9 @@
 import { NextResponse } from 'next/server';
 import { all, one, run } from '../../../lib/db.js';
-import { generatePrompts } from '../../../lib/prompts.js';
+import { generateSmartPrompts } from '../../../lib/smart-prompts.js';
 import { authorizeCron } from '../../../lib/cron-auth.js';
+
+export const maxDuration = 60;
 
 export const dynamic = 'force-dynamic';
 
@@ -79,9 +81,9 @@ export async function POST(request) {
   );
   const domainId = Number(res.lastInsertRowid);
 
-  // Auto-generate the default prompt set from the service category / brand.
+  // Auto-generate a relevant prompt set (Claude-tailored, with a static fallback).
   const row = await one('SELECT * FROM domains WHERE id = ?', [domainId]);
-  const prompts = generatePrompts(row);
+  const { prompts, archetype, source } = await generateSmartPrompts(row);
   for (const p of prompts) {
     await run('INSERT INTO prompts (domain_id, prompt_text, prompt_type) VALUES (?,?,?)', [
       domainId,
@@ -90,5 +92,5 @@ export async function POST(request) {
     ]);
   }
 
-  return NextResponse.json({ ok: true, domainId, prompts: prompts.length });
+  return NextResponse.json({ ok: true, domainId, prompts: prompts.length, archetype, source });
 }

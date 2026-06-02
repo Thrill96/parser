@@ -2,7 +2,7 @@
 //   npm run db:seed
 import './_env.mjs';
 import { createClient } from '@libsql/client';
-import { generatePrompts } from '../lib/prompts.js';
+import { generateSmartPrompts } from '../lib/smart-prompts.js';
 
 const url = process.env.TURSO_DATABASE_URL;
 if (!url) {
@@ -54,7 +54,7 @@ if (existing.rows.length) {
   console.log(`Inserted domain id=${domainId}`);
 }
 
-const prompts = generatePrompts({ ...DOMAIN, id: domainId });
+const { prompts, archetype, source } = await generateSmartPrompts({ ...DOMAIN, id: domainId });
 for (const p of prompts) {
   await client.execute({
     sql: 'INSERT INTO prompts (domain_id, prompt_text, prompt_type) VALUES (?,?,?)',
@@ -62,5 +62,5 @@ for (const p of prompts) {
   });
 }
 
-console.log(`Seeded ${prompts.length} prompts:`);
+console.log(`Seeded ${prompts.length} prompts (${source}${archetype ? `, archetype: ${archetype}` : ''}):`);
 for (const p of prompts) console.log(`  [${p.prompt_type}] ${p.prompt_text}`);
