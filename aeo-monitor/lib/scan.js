@@ -8,6 +8,7 @@
 
 import { all, one, run } from './db.js';
 import { activeEngines } from './engines/index.js';
+import { mapWithConcurrency } from './concurrency.js';
 import { parseResponse } from './parser.js';
 import { computeVisibility } from './scoring.js';
 import { maybeAlert } from './alerts.js';
@@ -25,71 +26,83 @@ async function scanDomain(domain, engines) {
     [domain.id]
   );
   const runDate = today();
-  const parsedResults = [];
 
+  // Build the full task list (prompt × engine) and run the slow part — the
+  // engine call + Claude parse — in parallel with a concurrency cap. The cap
+  // keeps us under provider rate limits (e.g. Gemini free tier = 15 req/min).
+  const tasks = [];
   for (const prompt of prompts) {
-    for (const engine of engines) {
-      let raw = '';
-      let extracted;
-      try {
-        raw = await engine.run(prompt.prompt_text);
-      } catch (err) {
-        console.error(`[scan] ${engine.id} failed on "${prompt.prompt_text}":`, err.message);
-        raw = `__ENGINE_ERROR__: ${err.message}`;
-      }
+    for (const engine of engines) tasks.push({ prompt, engine });
+  }
+  const concurrency = Number(process.env.SCAN_CONCURRENCY || 5);
 
-      try {
-        extracted = await parseResponse({
-          domain: domain.domain,
-          brand_name: domain.brand_name,
-          owner_name: domain.owner_name || '',
-          service_category: domain.service_category || '',
-          prompt_text: prompt.prompt_text,
-          engine: engine.id,
-          raw_response: raw,
-        });
-      } catch (err) {
-        console.error('[scan] parser failed:', err.message);
-        extracted = {
-          brand_mentioned: false,
-          website_linked: false,
-          correctly_identified: false,
-          competitor_mentioned: [],
-          sentiment: 'absent',
-          confidence_score: 0,
-          extraction_notes: `Parser error: ${err.message}`,
-        };
-      }
-
-      await run(
-        `INSERT INTO results
-          (domain_id, prompt_id, engine, run_date, raw_response,
-           brand_mentioned, website_linked, correctly_identified,
-           competitor_mentioned, sentiment, confidence_score, extraction_notes)
-         VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`,
-        [
-          domain.id,
-          prompt.id,
-          engine.id,
-          runDate,
-          raw.slice(0, TRUNCATE),
-          extracted.brand_mentioned ? 1 : 0,
-          extracted.website_linked ? 1 : 0,
-          extracted.correctly_identified ? 1 : 0,
-          JSON.stringify(extracted.competitor_mentioned),
-          extracted.sentiment,
-          extracted.confidence_score,
-          extracted.extraction_notes,
-        ]
-      );
-
-      parsedResults.push({
-        engine: engine.id,
-        prompt_text: prompt.prompt_text,
-        prompt_type: prompt.prompt_type,
-        ...extracted,
-      });
+  const computed = await mapWithConcurrency(tasks, concurrency, async ({ prompt, engine }) => {
+    let raw = '';
+    try {
+      raw = await engine.run(prompt.prompt_text);
+    } catch (err) {
+      console.error(`[scan] ${engine.id} failed on "${prompt.prompt_text}":`, err.message);
+      raw = `__ENGINE_ERROR__: ${err.message}`;
     }
+
+    let extracted;
+    try {
+      extracted = await parseResponse({
+        domain: domain.domain,
+        brand_name: domain.brand_name,
+        owner_name: domain.owner_name || '',
+        service_category: domain.service_category || '',
+        prompt_text: prompt.prompt_text,
+        engine: engine.id,
+        raw_response: raw,
+      });
+    } catch (err) {
+      console.error('[scan] parser failed:', err.message);
+      extracted = {
+        brand_mentioned: false,
+        website_linked: false,
+        correctly_identified: false,
+        competitor_mentioned: [],
+        sentiment: 'absent',
+        confidence_score: 0,
+        extraction_notes: `Parser error: ${err.message}`,
+      };
+    }
+
+    return { prompt, engine, raw, extracted };
+  });
+
+  // Persist results sequentially (SQLite is a single writer — avoid contention).
+  const parsedResults = [];
+  for (const { prompt, engine, raw, extracted } of computed) {
+    await run(
+      `INSERT INTO results
+        (domain_id, prompt_id, engine, run_date, raw_response,
+         brand_mentioned, website_linked, correctly_identified,
+         competitor_mentioned, sentiment, confidence_score, extraction_notes)
+       VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`,
+      [
+        domain.id,
+        prompt.id,
+        engine.id,
+        runDate,
+        raw.slice(0, TRUNCATE),
+        extracted.brand_mentioned ? 1 : 0,
+        extracted.website_linked ? 1 : 0,
+        extracted.correctly_identified ? 1 : 0,
+        JSON.stringify(extracted.competitor_mentioned),
+        extracted.sentiment,
+        extracted.confidence_score,
+        extracted.extraction_notes,
+      ]
+    );
+
+    parsedResults.push({
+      engine: engine.id,
+      prompt_text: prompt.prompt_text,
+      prompt_type: prompt.prompt_type,
+      ...extracted,
+    });
   }
 
   // Latest schema audit (if any) feeds the overall score and recommendations.
