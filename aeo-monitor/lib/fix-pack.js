@@ -25,9 +25,14 @@ export function parseFixPack(text) {
     return {
       items: Array.isArray(p.items) ? p.items : [],
       offsite_checklist: Array.isArray(p.offsite_checklist) ? p.offsite_checklist : [],
+      needs_input: Array.isArray(p.needs_input) ? p.needs_input : [],
     };
   } catch {
-    return { items: salvageArray(body, 'items'), offsite_checklist: salvageStringArray(body, 'offsite_checklist') };
+    return {
+      items: salvageArray(body, 'items'),
+      offsite_checklist: salvageStringArray(body, 'offsite_checklist'),
+      needs_input: salvageStringArray(body, 'needs_input'),
+    };
   }
 }
 
@@ -91,15 +96,17 @@ export async function generateFixPack(ctx) {
 deliverables that implement AEO (AI Engine Optimization) fixes. The owner is NOT technical —
 they will copy your output and paste it into their site. Write the real artifacts, not advice.
 
-BRAND DATA:
+VERIFIED DATA (the ONLY facts you may state about this business):
 ${JSON.stringify(
   {
     brand: ctx.brand_name,
-    owner: ctx.owner_name,
+    owner: ctx.owner_name || null,
     domain: ctx.domain,
-    service_category: ctx.service_category,
-    location: ctx.location,
-    linkedin_url: ctx.linkedin_url,
+    service_category: ctx.service_category || null,
+    location: ctx.location || null,
+    linkedin_url: ctx.linkedin_url || null,
+    other_profiles: ctx.same_as || [],
+    owner_supplied_material: ctx.verified_facts || null,
     platform: ctx.cms?.label,
     schema_gaps: ctx.schemaIssues || [],
     strategy_recommendations: (ctx.recommendations || []).map((r) => ({
@@ -112,14 +119,27 @@ ${JSON.stringify(
   2
 )}
 
+CRITICAL — DO NOT FABRICATE. This content will be pasted onto a live website, so accuracy is
+non-negotiable:
+- State ONLY facts present in VERIFIED DATA above. Never invent URLs, social/profile handles,
+  statistics, percentages, dollar amounts, dates, addresses, phone numbers, client names, or
+  credentials.
+- NEVER write fake testimonials, reviews, or ratings. If a review/testimonial section or
+  Review/AggregateRating schema is warranted, output the STRUCTURE with placeholders only.
+- When a needed detail is missing, insert a clearly-bracketed ALL-CAPS placeholder such as
+  [ADD YOUR REAL LINKEDIN URL], [ADD A REAL CLIENT TESTIMONIAL — DO NOT FABRICATE], or
+  [ADD YEAR FOUNDED], and add a short note to "needs_input".
+- For sameAs in schema, include only the linkedin_url / other_profiles that were provided;
+  otherwise use a placeholder. Do not guess a handle.
+- You MAY write marketing/positioning prose (value props, descriptions of the service) since
+  that's derived from the category — but any concrete claim of fact must come from VERIFIED DATA.
+
 PLATFORM INSTALL CONTEXT for "${ctx.cms?.label}": ${ctx.cms?.inject}
 
 Produce the highest-impact, directly-installable artifacts (aim for 5-7). Favor things that
 go ON the site: the meta description tag, JSON-LD schema blocks (Organization, Person, and a
 relevant Service/FAQ), rewritten homepage hero copy, an About-page draft, and one comparison
-or FAQ page draft. For each artifact, write the FINAL content the owner pastes — fully filled
-in with their real details, no placeholders like [Name]. Make schema valid JSON-LD wrapped in
-a <script type="application/ld+json"> tag.
+or FAQ page draft. Make schema valid JSON-LD wrapped in a <script type="application/ld+json"> tag.
 
 Return JSON ONLY (no prose, no markdown fences):
 {
@@ -129,12 +149,15 @@ Return JSON ONLY (no prose, no markdown fences):
       "type": "meta" | "schema" | "copy" | "page",
       "format": "html" | "jsonld" | "markdown" | "text",
       "where": "Exactly where this goes (e.g. homepage <head>, /about page body)",
-      "content": "The complete, ready-to-paste content.",
+      "content": "The complete, ready-to-paste content (with [PLACEHOLDERS] for any missing facts).",
       "instructions": "Plain-English, ${ctx.cms?.label}-specific steps to install it."
     }
   ],
   "offsite_checklist": [
-    "Brief off-site actions that can't be pasted (e.g. 'Create a Clutch.co profile listing AI implementation consulting')."
+    "Brief off-site actions that can't be pasted (e.g. 'Create a Clutch.co profile')."
+  ],
+  "needs_input": [
+    "Each real fact the owner must supply before publishing (e.g. 'Real LinkedIn URL', 'At least 3 genuine client testimonials with names')."
   ]
 }`;
 

@@ -12,6 +12,8 @@ CREATE TABLE IF NOT EXISTS domains (
     service_category TEXT,          -- e.g. "AI consulting for SMB owners"
     location TEXT,                  -- used by recommendation prompt templates
     competitors TEXT,               -- JSON array of competitor domains/brands
+    same_as TEXT,                   -- JSON array of real profile URLs (sameAs)
+    verified_facts TEXT,            -- owner-provided real material (testimonials, metrics, bio)
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -103,6 +105,7 @@ CREATE TABLE IF NOT EXISTS fix_packs (
     cms_label TEXT,                -- human label
     items TEXT,                    -- JSON array of {title,type,format,content,where,instructions}
     offsite_checklist TEXT,        -- JSON array of brief off-site actions
+    needs_input TEXT,              -- JSON array of placeholders the owner must fill in
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (domain_id) REFERENCES domains(id)
 );

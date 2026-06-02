@@ -63,11 +63,12 @@ export async function POST(request) {
   }
 
   const competitors = JSON.stringify(normalizeCompetitors(body.competitors));
+  const sameAs = JSON.stringify(normalizeCompetitors(body.same_as)); // same "comma list → array" shape
   const res = await run(
     `INSERT INTO domains
        (domain, brand_name, owner_name, owner_email, linkedin_url,
-        service_category, location, competitors)
-     VALUES (?,?,?,?,?,?,?,?)`,
+        service_category, location, competitors, same_as, verified_facts)
+     VALUES (?,?,?,?,?,?,?,?,?,?)`,
     [
       domain,
       brand_name,
@@ -77,6 +78,8 @@ export async function POST(request) {
       String(body.service_category || '').trim() || null,
       String(body.location || '').trim() || null,
       competitors,
+      sameAs,
+      String(body.verified_facts || '').trim() || null,
     ]
   );
   const domainId = Number(res.lastInsertRowid);

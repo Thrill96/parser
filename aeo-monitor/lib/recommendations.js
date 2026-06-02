@@ -148,6 +148,10 @@ and correctly identify this brand. Be specific to THIS data — reference the ac
 that failed, the actual competitors displacing them, and the actual schema gaps. Avoid
 generic SEO advice. Each recommendation must be an action the owner can take.
 
+Do NOT invent specific facts: no made-up URLs, profile handles, statistics, dates, or client
+names. Refer to assets generically ("your LinkedIn profile", "a real client testimonial")
+unless the exact value appears in DATA above.
+
 Return JSON ONLY in this exact shape (no markdown fences, no prose outside the JSON):
 {
   "summary": "2-3 sentence executive summary of where the brand stands and the single biggest lever.",

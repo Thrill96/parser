@@ -80,6 +80,26 @@ export default function FixPackView({ domainId, brandName, pack }) {
         </div>
       ) : (
         <>
+          {pack.needs_input && pack.needs_input.length > 0 && (
+            <div
+              className="panel"
+              style={{ marginBottom: 14, borderColor: 'var(--warn)' }}
+            >
+              <h2 style={{ color: 'var(--warn)' }}>⚠️ Fill these in before publishing</h2>
+              <p className="muted" style={{ marginTop: 0, fontSize: 13 }}>
+                These are real facts only you can supply. The content below uses{' '}
+                <code>[PLACEHOLDERS]</code> for them — we do <strong>not</strong> invent LinkedIn
+                URLs, testimonials, metrics, or other facts.
+              </p>
+              <ul style={{ paddingLeft: 18, margin: 0 }}>
+                {pack.needs_input.map((n, i) => (
+                  <li key={i} style={{ fontSize: 13, marginBottom: 6 }}>
+                    {n}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
           {pack.items.map((item, i) => (
             <div className="panel" key={i} style={{ marginBottom: 14 }}>
               <div

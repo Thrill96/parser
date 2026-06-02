@@ -20,6 +20,26 @@ const FIELDS = [
     placeholder: 'competitora.com, Competitor B',
     hint: 'Comma-separated. Used for comparison prompts and displacement tracking.',
   },
+  {
+    name: 'linkedin_url',
+    label: 'LinkedIn URL (real)',
+    placeholder: 'https://www.linkedin.com/in/their-handle',
+    hint: 'Used in schema. Leave blank if unknown — we will NOT invent one.',
+  },
+  {
+    name: 'same_as',
+    label: 'Other profile URLs',
+    placeholder: 'https://twitter.com/..., https://g2.com/...',
+    hint: 'Comma-separated, optional. Real profile/directory links only.',
+  },
+  {
+    name: 'verified_facts',
+    label: 'Real material to use (optional)',
+    type: 'textarea',
+    placeholder:
+      'Paste anything real you want the Fix Pack to use verbatim: client testimonials (with names), metrics, credentials, year founded, awards…',
+    hint: 'Anything not provided here will be left as a [PLACEHOLDER] in the Fix Pack — never fabricated.',
+  },
 ];
 
 export default function AddSitePage() {
@@ -69,22 +89,41 @@ export default function AddSitePage() {
               {f.label}
               {f.required && <span style={{ color: 'var(--bad)' }}> *</span>}
             </label>
-            <input
-              type="text"
-              value={form[f.name] || ''}
-              placeholder={f.placeholder}
-              required={f.required}
-              onChange={(e) => set(f.name, e.target.value)}
-              style={{
-                width: '100%',
-                background: 'var(--panel-2)',
-                color: 'var(--text)',
-                border: '1px solid var(--border)',
-                borderRadius: 8,
-                padding: '8px 12px',
-                fontSize: 14,
-              }}
-            />
+            {f.type === 'textarea' ? (
+              <textarea
+                value={form[f.name] || ''}
+                placeholder={f.placeholder}
+                rows={5}
+                onChange={(e) => set(f.name, e.target.value)}
+                style={{
+                  width: '100%',
+                  background: 'var(--panel-2)',
+                  color: 'var(--text)',
+                  border: '1px solid var(--border)',
+                  borderRadius: 8,
+                  padding: '8px 12px',
+                  fontSize: 14,
+                  resize: 'vertical',
+                }}
+              />
+            ) : (
+              <input
+                type="text"
+                value={form[f.name] || ''}
+                placeholder={f.placeholder}
+                required={f.required}
+                onChange={(e) => set(f.name, e.target.value)}
+                style={{
+                  width: '100%',
+                  background: 'var(--panel-2)',
+                  color: 'var(--text)',
+                  border: '1px solid var(--border)',
+                  borderRadius: 8,
+                  padding: '8px 12px',
+                  fontSize: 14,
+                }}
+              />
+            )}
             {f.hint && (
               <div className="muted" style={{ fontSize: 12, marginTop: 4 }}>
                 {f.hint}

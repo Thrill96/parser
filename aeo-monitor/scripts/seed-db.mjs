@@ -16,7 +16,8 @@ const DOMAIN = {
   brand_name: 'EmpowerCore Solutions',
   owner_name: 'Will Stewart',
   owner_email: 'willhstewart2@gmail.com',
-  linkedin_url: 'https://www.linkedin.com/in/willhstewart',
+  // Leave blank — set your REAL LinkedIn URL rather than letting anything guess a handle.
+  linkedin_url: '',
   service_category: 'AI implementation consulting for small businesses',
   location: 'the US',
   competitors: JSON.stringify(['Empower AI', 'Searchable']),

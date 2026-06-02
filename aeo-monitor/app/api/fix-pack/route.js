@@ -68,6 +68,13 @@ export async function POST(request) {
     const html = await fetchHomepage(domain.domain);
     const cms = detectCMS(html);
 
+    let sameAs = [];
+    try {
+      sameAs = domain.same_as ? JSON.parse(domain.same_as) : [];
+    } catch {
+      sameAs = [];
+    }
+
     const pack = await generateFixPack({
       domain: domain.domain,
       brand_name: domain.brand_name,
@@ -75,14 +82,16 @@ export async function POST(request) {
       service_category: domain.service_category,
       linkedin_url: domain.linkedin_url,
       location: domain.location,
+      same_as: sameAs,
+      verified_facts: domain.verified_facts,
       cms,
       recommendations,
       schemaIssues,
     });
 
     await run(
-      `INSERT INTO fix_packs (domain_id, gen_date, cms, cms_label, items, offsite_checklist)
-       VALUES (?,?,?,?,?,?)`,
+      `INSERT INTO fix_packs (domain_id, gen_date, cms, cms_label, items, offsite_checklist, needs_input)
+       VALUES (?,?,?,?,?,?,?)`,
       [
         domainId,
         new Date().toISOString().slice(0, 10),
@@ -90,10 +99,16 @@ export async function POST(request) {
         cms.label,
         JSON.stringify(pack.items),
         JSON.stringify(pack.offsite_checklist),
+        JSON.stringify(pack.needs_input || []),
       ]
     );
 
-    return NextResponse.json({ ok: true, cms: cms.label, items: pack.items.length });
+    return NextResponse.json({
+      ok: true,
+      cms: cms.label,
+      items: pack.items.length,
+      needs_input: (pack.needs_input || []).length,
+    });
   } catch (err) {
     console.error('[api/fix-pack]', err);
     return NextResponse.json({ ok: false, error: err.message }, { status: 500 });

@@ -84,6 +84,7 @@ export async function getLatestFixPack(domainId) {
     cms_label: row.cms_label,
     items: safe(row.items),
     offsite_checklist: safe(row.offsite_checklist),
+    needs_input: safe(row.needs_input),
   };
 }
 

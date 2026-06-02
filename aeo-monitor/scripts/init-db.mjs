@@ -32,4 +32,26 @@ for (const stmt of statements) {
   await client.execute(stmt);
 }
 
-console.log(`Applied ${statements.length} statements to ${url}`);
+// Migrations: add columns to tables that already exist from an earlier schema.
+// SQLite has no "ADD COLUMN IF NOT EXISTS", so check PRAGMA table_info first.
+async function ensureColumns(table, columns) {
+  const info = await client.execute(`PRAGMA table_info(${table})`);
+  const have = new Set(info.rows.map((r) => r.name));
+  let added = 0;
+  for (const [name, type] of Object.entries(columns)) {
+    if (!have.has(name)) {
+      await client.execute(`ALTER TABLE ${table} ADD COLUMN ${name} ${type}`);
+      added++;
+    }
+  }
+  return added;
+}
+
+let migrated = 0;
+migrated += await ensureColumns('domains', { same_as: 'TEXT', verified_facts: 'TEXT' });
+migrated += await ensureColumns('fix_packs', { needs_input: 'TEXT' });
+
+console.log(
+  `Applied ${statements.length} statements to ${url}` +
+    (migrated ? ` (+${migrated} column migration${migrated === 1 ? '' : 's'})` : '')
+);
