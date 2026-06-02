@@ -1,10 +1,15 @@
 // Minimal .env loader for standalone scripts (no dotenv dependency).
-// Loads .env.local then .env (first definition wins) into process.env.
+// Loads .env.local then .env into process.env. Within a file, the LAST
+// definition of a key wins (so an appended correction overrides an earlier
+// stale line). Values already present in the real shell environment always
+// take precedence over file values.
 import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const preexisting = new Set(Object.keys(process.env));
+const fromFiles = {};
 
 for (const file of ['.env.local', '.env']) {
   const path = join(root, file);
@@ -21,6 +26,13 @@ for (const file of ['.env.local', '.env']) {
     ) {
       val = val.slice(1, -1);
     }
-    if (process.env[key] === undefined) process.env[key] = val;
+    // Last write wins across both files for the same key.
+    fromFiles[key] = val;
   }
 }
+
+for (const [key, val] of Object.entries(fromFiles)) {
+  // Don't clobber a value explicitly set in the real shell environment.
+  if (!preexisting.has(key)) process.env[key] = val;
+}
+
