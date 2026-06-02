@@ -17,7 +17,7 @@ export function enabled() {
 }
 
 export async function run(prompt) {
-  const model = process.env.CLAUDE_MODEL || 'claude-sonnet-4-20250514';
+  const model = process.env.CLAUDE_MODEL || 'claude-sonnet-4-6';
   const msg = await client().messages.create({
     model,
     max_tokens: 800,

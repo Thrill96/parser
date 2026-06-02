@@ -77,7 +77,7 @@ function extractJson(text) {
  * @returns extracted, coerced visibility record
  */
 export async function parseResponse(ctx) {
-  const model = process.env.PARSER_MODEL || 'claude-sonnet-4-20250514';
+  const model = process.env.PARSER_MODEL || 'claude-haiku-4-5-20251001';
   const prompt = fill(EXTRACTION_PROMPT, ctx);
 
   const msg = await client().messages.create({
