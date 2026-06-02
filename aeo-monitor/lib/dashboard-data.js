@@ -43,6 +43,21 @@ export async function getLatestResults(domainId) {
   );
 }
 
+export async function getLatestRecommendations(domainId) {
+  const row = await one(
+    'SELECT * FROM recommendations WHERE domain_id = ? ORDER BY gen_date DESC, id DESC LIMIT 1',
+    [domainId]
+  );
+  if (!row) return null;
+  let recommendations = [];
+  try {
+    recommendations = JSON.parse(row.recommendations || '[]');
+  } catch {
+    recommendations = [];
+  }
+  return { summary: row.summary, gen_date: row.gen_date, recommendations };
+}
+
 export async function getLatestSchemaAudit(domainId) {
   return one(
     'SELECT * FROM schema_audits WHERE domain_id = ? ORDER BY audit_date DESC, id DESC LIMIT 1',

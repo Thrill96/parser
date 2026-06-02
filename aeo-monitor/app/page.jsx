@@ -4,6 +4,7 @@ import SchemaCard from './components/SchemaCard.jsx';
 import TrendChart from './components/TrendChart.jsx';
 import ResultsTable from './components/ResultsTable.jsx';
 import CompetitorView from './components/CompetitorView.jsx';
+import Recommendations from './components/Recommendations.jsx';
 import RunScanButton from './components/RunScanButton.jsx';
 import {
   getPrimaryDomain,
@@ -12,6 +13,7 @@ import {
   getLatestResults,
   getLatestSchemaAudit,
   getCompetitorStats,
+  getLatestRecommendations,
 } from '../lib/dashboard-data.js';
 
 export const dynamic = 'force-dynamic';
@@ -54,12 +56,13 @@ export default async function Dashboard() {
   }
   if (!domain) return <SetupNotice />;
 
-  const [visibility, trend, results, schema, competitors] = await Promise.all([
+  const [visibility, trend, results, schema, competitors, recommendations] = await Promise.all([
     getLatestVisibility(domain.id),
     getVisibilityTrend(domain.id, 12),
     getLatestResults(domain.id),
     getLatestSchemaAudit(domain.id),
     getCompetitorStats(domain.id),
+    getLatestRecommendations(domain.id),
   ]);
 
   return (
@@ -86,6 +89,10 @@ export default async function Dashboard() {
 
       <div style={{ marginBottom: 16 }}>
         <EngineBreakdown visibility={visibility} />
+      </div>
+
+      <div style={{ marginBottom: 16 }}>
+        <Recommendations data={recommendations} />
       </div>
 
       <div className="panel" style={{ marginBottom: 16 }}>

@@ -83,6 +83,17 @@ CREATE TABLE IF NOT EXISTS visibility_scores (
     FOREIGN KEY (domain_id) REFERENCES domains(id)
 );
 
+-- Claude-generated recommended actions (one row per scan)
+CREATE TABLE IF NOT EXISTS recommendations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    domain_id INTEGER NOT NULL,
+    gen_date DATE NOT NULL,
+    summary TEXT,                  -- one-paragraph executive summary
+    recommendations TEXT,          -- JSON array of {priority,title,why,action,category}
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (domain_id) REFERENCES domains(id)
+);
+
 -- Indexes
 CREATE INDEX IF NOT EXISTS idx_results_domain_date ON results(domain_id, run_date);
 CREATE INDEX IF NOT EXISTS idx_results_engine ON results(engine);

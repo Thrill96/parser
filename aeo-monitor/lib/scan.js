@@ -11,6 +11,7 @@ import { activeEngines } from './engines/index.js';
 import { parseResponse } from './parser.js';
 import { computeVisibility } from './scoring.js';
 import { maybeAlert } from './alerts.js';
+import { generateRecommendations } from './recommendations.js';
 
 const TRUNCATE = 2000;
 
@@ -82,16 +83,27 @@ async function scanDomain(domain, engines) {
         ]
       );
 
-      parsedResults.push({ engine: engine.id, ...extracted });
+      parsedResults.push({
+        engine: engine.id,
+        prompt_text: prompt.prompt_text,
+        prompt_type: prompt.prompt_type,
+        ...extracted,
+      });
     }
   }
 
-  // Latest schema score (if a schema audit has run) feeds the overall score.
+  // Latest schema audit (if any) feeds the overall score and recommendations.
   const latestSchema = await one(
-    'SELECT score FROM schema_audits WHERE domain_id = ? ORDER BY audit_date DESC, id DESC LIMIT 1',
+    'SELECT score, issues FROM schema_audits WHERE domain_id = ? ORDER BY audit_date DESC, id DESC LIMIT 1',
     [domain.id]
   );
   const schemaScore = latestSchema ? latestSchema.score : null;
+  let schemaIssues = [];
+  try {
+    schemaIssues = latestSchema && latestSchema.issues ? JSON.parse(latestSchema.issues) : [];
+  } catch {
+    schemaIssues = [];
+  }
 
   const visibility = computeVisibility(parsedResults, schemaScore);
 
@@ -121,6 +133,38 @@ async function scanDomain(domain, engines) {
 
   const alert = await maybeAlert(domain, visibility, previous, parsedResults);
 
+  // Claude-generated recommended actions. Non-fatal: a failure here must not
+  // lose the scan results we just stored.
+  let recommendations = null;
+  try {
+    const competitors = [
+      ...new Set(
+        parsedResults.flatMap((r) =>
+          Array.isArray(r.competitor_mentioned) ? r.competitor_mentioned : []
+        )
+      ),
+    ];
+    recommendations = await generateRecommendations({
+      domain: domain.domain,
+      brand_name: domain.brand_name,
+      owner_name: domain.owner_name,
+      service_category: domain.service_category,
+      linkedin_url: domain.linkedin_url,
+      visibility,
+      results: parsedResults,
+      schemaIssues,
+      schemaScore,
+      competitors,
+    });
+    await run(
+      `INSERT INTO recommendations (domain_id, gen_date, summary, recommendations)
+       VALUES (?,?,?,?)`,
+      [domain.id, runDate, recommendations.summary, JSON.stringify(recommendations.recommendations)]
+    );
+  } catch (err) {
+    console.error('[scan] recommendations failed:', err.message);
+  }
+
   return {
     domain: domain.domain,
     prompts: prompts.length,
@@ -128,6 +172,7 @@ async function scanDomain(domain, engines) {
     results: parsedResults.length,
     visibility,
     alert,
+    recommendations: recommendations ? recommendations.recommendations.length : 0,
   };
 }
 
