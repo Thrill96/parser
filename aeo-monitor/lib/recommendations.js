@@ -19,6 +19,68 @@ function extractJson(text) {
   return JSON.parse(candidate.slice(start, end + 1));
 }
 
+// Salvage parser: if the model's JSON is truncated (e.g. cut off at the token
+// limit mid-array), recover the summary and every COMPLETE recommendation
+// object instead of losing the whole batch.
+function salvage(text) {
+  let summary = '';
+  const sm = text.match(/"summary"\s*:\s*"((?:[^"\\]|\\.)*)"/);
+  if (sm) {
+    try {
+      summary = JSON.parse(`"${sm[1]}"`);
+    } catch {
+      summary = sm[1];
+    }
+  }
+
+  const recommendations = [];
+  const arrAt = text.search(/"recommendations"\s*:\s*\[/);
+  if (arrAt !== -1) {
+    let depth = 0;
+    let objStart = -1;
+    let inStr = false;
+    let esc = false;
+    const from = text.indexOf('[', arrAt) + 1;
+    for (let j = from; j < text.length; j++) {
+      const c = text[j];
+      if (inStr) {
+        if (esc) esc = false;
+        else if (c === '\\') esc = true;
+        else if (c === '"') inStr = false;
+        continue;
+      }
+      if (c === '"') inStr = true;
+      else if (c === '{') {
+        if (depth === 0) objStart = j;
+        depth++;
+      } else if (c === '}') {
+        depth--;
+        if (depth === 0 && objStart !== -1) {
+          try {
+            recommendations.push(JSON.parse(text.slice(objStart, j + 1)));
+          } catch {
+            /* skip a malformed object */
+          }
+          objStart = -1;
+        }
+      } else if (c === ']' && depth === 0) break;
+    }
+  }
+  return { summary, recommendations };
+}
+
+export function parseRecommendations(text) {
+  try {
+    const parsed = extractJson(text);
+    return {
+      summary: typeof parsed.summary === 'string' ? parsed.summary : '',
+      recommendations: Array.isArray(parsed.recommendations) ? parsed.recommendations : [],
+    };
+  } catch {
+    return salvage(text);
+  }
+}
+
 // Compact the raw results into a per-prompt digest so the prompt stays cheap.
 function digest(results) {
   return results.map((r) => ({
@@ -103,7 +165,7 @@ Order recommendations by priority (high first). Aim for 4-7 recommendations.`;
 
   const msg = await client().messages.create({
     model,
-    max_tokens: 1500,
+    max_tokens: 4000,
     messages: [{ role: 'user', content: prompt }],
   });
 
@@ -112,9 +174,5 @@ Order recommendations by priority (high first). Aim for 4-7 recommendations.`;
     .map((b) => b.text)
     .join('');
 
-  const parsed = extractJson(text);
-  return {
-    summary: typeof parsed.summary === 'string' ? parsed.summary : '',
-    recommendations: Array.isArray(parsed.recommendations) ? parsed.recommendations : [],
-  };
+  return parseRecommendations(text);
 }
