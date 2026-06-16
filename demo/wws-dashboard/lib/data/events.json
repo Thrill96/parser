@@ -1,0 +1,47 @@
+[
+  {
+    "id": "e1",
+    "name": "Washington Winter Show 2026",
+    "date": "2026-01-09",
+    "type": "Main Show",
+    "status": "completed",
+    "attendees": 1850,
+    "revenue": 542500
+  },
+  {
+    "id": "e2",
+    "name": "Preview Night VIP Reception",
+    "date": "2026-01-08",
+    "type": "Preview",
+    "status": "completed",
+    "attendees": 220,
+    "revenue": 88000
+  },
+  {
+    "id": "e3",
+    "name": "Young Collectors Circle Mixer",
+    "date": "2026-03-15",
+    "type": "Engagement",
+    "status": "upcoming",
+    "attendees": 45,
+    "revenue": 22500
+  },
+  {
+    "id": "e4",
+    "name": "Spring Antiques at Hillwood",
+    "date": "2026-04-22",
+    "type": "Engagement",
+    "status": "planning",
+    "attendees": 0,
+    "revenue": 0
+  },
+  {
+    "id": "e5",
+    "name": "Curator's Tour: Dumbarton Oaks",
+    "date": "2026-06-10",
+    "type": "Engagement",
+    "status": "planning",
+    "attendees": 0,
+    "revenue": 0
+  }
+]

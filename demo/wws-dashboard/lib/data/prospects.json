@@ -1,0 +1,87 @@
+[
+  {
+    "id": "p001",
+    "name": "Vladimir Dunmore",
+    "zip": "20854",
+    "area": "Potomac",
+    "ds_rating": 5,
+    "mlr_score": 73,
+    "confirmed_giving": "$51K/yr",
+    "largest_gift": {
+      "org": "Smithsonian American Art Museum",
+      "amount": "$50K"
+    },
+    "affinity": "Arts board member, DC preservation",
+    "target_tier": "Presenting Eagle",
+    "status": "not_contacted",
+    "est_capacity": "$192K"
+  },
+  {
+    "id": "p002",
+    "name": "Ursula Yorke",
+    "zip": "22066",
+    "area": "Great Falls",
+    "ds_rating": 4,
+    "mlr_score": 76,
+    "confirmed_giving": "$66K/yr",
+    "largest_gift": {
+      "org": "Kennedy Center",
+      "amount": "$30K"
+    },
+    "affinity": "Kennedy Center trustee, art auction bidder",
+    "target_tier": "Gold Eagle",
+    "status": "not_contacted",
+    "est_capacity": "$195K"
+  },
+  {
+    "id": "p003",
+    "name": "Xavier Penbrook",
+    "zip": "20007",
+    "area": "Georgetown",
+    "ds_rating": 4,
+    "mlr_score": 83,
+    "confirmed_giving": "$94K/yr",
+    "largest_gift": {
+      "org": "National Trust",
+      "amount": "$50K"
+    },
+    "affinity": "Historic preservation, antique collector",
+    "target_tier": "Platinum Eagle",
+    "status": "not_contacted",
+    "est_capacity": "$231K"
+  },
+  {
+    "id": "p004",
+    "name": "Catherine Sondland",
+    "zip": "22101",
+    "area": "McLean",
+    "ds_rating": 5,
+    "mlr_score": 84,
+    "confirmed_giving": "$160K/yr",
+    "largest_gift": {
+      "org": "Smithsonian American Art Museum",
+      "amount": "$30K"
+    },
+    "affinity": "Decorative arts collector, multiple boards",
+    "target_tier": "Gold Eagle",
+    "status": "not_contacted",
+    "est_capacity": "$150K"
+  },
+  {
+    "id": "p005",
+    "name": "Valentina Pemberton",
+    "zip": "20815",
+    "area": "Chevy Chase",
+    "ds_rating": 5,
+    "mlr_score": 88,
+    "confirmed_giving": "$83K/yr",
+    "largest_gift": {
+      "org": "Smithsonian American Art Museum",
+      "amount": "$30K"
+    },
+    "affinity": "Historic preservation, antique collector",
+    "target_tier": "Platinum Eagle",
+    "status": "not_contacted",
+    "est_capacity": "$129K"
+  }
+]

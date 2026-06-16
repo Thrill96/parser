@@ -1,0 +1,2324 @@
+{
+  "c0002": {
+    "ds_rating": 3,
+    "mlr_score": 67,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 125000,
+    "est_net_worth": "$22.3M",
+    "real_estate": [
+      {
+        "location": "Kalorama, DC",
+        "value": "$7.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Middleburg, VA",
+        "value": "$4.6M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$14.6M",
+    "political_giving": "$87,602 lifetime",
+    "boards": [
+      "National Gallery of Art",
+      "Hillwood Estate"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$177,000/yr",
+    "foundation": "Barnard Family Trust \u2014 DC arts grants"
+  },
+  "c0005": {
+    "ds_rating": 3,
+    "mlr_score": 68,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 37500,
+    "est_net_worth": "$5.8M",
+    "real_estate": [
+      {
+        "location": "Kalorama, DC",
+        "value": "$2.6M",
+        "type": "Primary"
+      },
+      {
+        "location": "Palm Beach, FL",
+        "value": "$5.2M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$15.7M",
+    "political_giving": "$136,170 lifetime",
+    "boards": [
+      "National Gallery of Art",
+      "Phillips Collection"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$54,000/yr",
+    "foundation": "Cavanaugh Family Trust \u2014 DC arts grants"
+  },
+  "c0001": {
+    "ds_rating": 5,
+    "mlr_score": 78,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 150000,
+    "est_net_worth": "$45M+",
+    "real_estate": [
+      {
+        "location": "Rockville, MD",
+        "value": "$8.6M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$3.8M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$7.6M",
+    "political_giving": "$85,707 lifetime",
+    "boards": [
+      "Hillwood Estate",
+      "Washington National Cathedral"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$55,000/yr",
+    "foundation": "Cox Charitable Foundation"
+  },
+  "c0004": {
+    "ds_rating": 4,
+    "mlr_score": 66,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 62500,
+    "est_net_worth": "$45M+",
+    "real_estate": [
+      {
+        "location": "Adams Morgan, DC",
+        "value": "$6.6M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$3.5M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$16.2M",
+    "political_giving": "$101,287 lifetime",
+    "boards": [
+      "Hillwood Estate"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$25,000/yr",
+    "foundation": null
+  },
+  "c0003": {
+    "ds_rating": 4,
+    "mlr_score": 66,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 50000,
+    "est_net_worth": "$28.5M",
+    "real_estate": [
+      {
+        "location": "Kalorama, DC",
+        "value": "$2.4M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$3.1M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$8.8M",
+    "political_giving": "$132,267 lifetime",
+    "boards": [
+      "National Gallery of Art"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$82,000/yr",
+    "foundation": "Cox Family Trust \u2014 DC arts grants"
+  },
+  "c0006": {
+    "ds_rating": 4,
+    "mlr_score": 77,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 25000,
+    "est_net_worth": "$22.3M",
+    "real_estate": [
+      {
+        "location": "Bethesda, MD",
+        "value": "$2.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$1.9M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$14.5M",
+    "political_giving": "$98,646 lifetime",
+    "boards": [
+      "Kennedy Center",
+      "Washington National Cathedral",
+      "Corcoran School"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$73,000/yr",
+    "foundation": "Oakhurst Charitable Foundation"
+  },
+  "c0011": {
+    "ds_rating": 5,
+    "mlr_score": 92,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 25000,
+    "est_net_worth": "$22.3M",
+    "real_estate": [
+      {
+        "location": "Bethesda, MD",
+        "value": "$3.9M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$1.9M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$7.6M",
+    "political_giving": "$87,384 lifetime",
+    "boards": [
+      "Phillips Collection",
+      "Meridian International"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$50,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$158,000/yr",
+    "foundation": "Vereker Family Trust \u2014 DC arts grants"
+  },
+  "c0013": {
+    "ds_rating": 5,
+    "mlr_score": 76,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 20000,
+    "est_net_worth": "$8.4M",
+    "real_estate": [
+      {
+        "location": "Rockville, MD",
+        "value": "$2.2M",
+        "type": "Primary"
+      },
+      {
+        "location": "Palm Beach, FL",
+        "value": "$1.1M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$6.2M",
+    "political_giving": "$76,873 lifetime",
+    "boards": [
+      "National Gallery of Art",
+      "Hillwood Estate",
+      "Smithsonian American Art Museum"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$82,000/yr",
+    "foundation": "Fairfax Family Trust \u2014 DC arts grants"
+  },
+  "c0008": {
+    "ds_rating": 5,
+    "mlr_score": 93,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 15000,
+    "est_net_worth": "$18.7M",
+    "real_estate": [
+      {
+        "location": "Arlington, VA",
+        "value": "$7.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$4.5M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$10.4M",
+    "political_giving": "$138,426 lifetime",
+    "boards": [
+      "Dumbarton Oaks"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$50,000/yr",
+    "foundation": null
+  },
+  "c0009": {
+    "ds_rating": 4,
+    "mlr_score": 87,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 50000,
+    "est_net_worth": "$28.5M",
+    "real_estate": [
+      {
+        "location": "Severna Park, MD",
+        "value": "$5.9M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$2.1M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$18.1M",
+    "political_giving": "$143,705 lifetime",
+    "boards": [
+      "Smithsonian American Art Museum",
+      "Hillwood Estate",
+      "Folger Shakespeare Library"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$48,000/yr",
+    "foundation": "Stewart Family Trust \u2014 DC arts grants"
+  },
+  "c0016": {
+    "ds_rating": 4,
+    "mlr_score": 69,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 25000,
+    "est_net_worth": "$45M+",
+    "real_estate": [
+      {
+        "location": "Severna Park, MD",
+        "value": "$7.6M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$4.4M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$10.8M",
+    "political_giving": "$74,667 lifetime",
+    "boards": [
+      "Hillwood Estate",
+      "Washington National Cathedral"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$168,000/yr",
+    "foundation": null
+  },
+  "c0017": {
+    "ds_rating": 5,
+    "mlr_score": 77,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 10000,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Spring Valley, DC",
+        "value": "$2.3M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$1.9M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$5.2M",
+    "political_giving": "$169,145 lifetime",
+    "boards": [
+      "Smithsonian American Art Museum"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$50,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$58,000/yr",
+    "foundation": "Jardine Charitable Foundation"
+  },
+  "c0020": {
+    "ds_rating": 4,
+    "mlr_score": 70,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 12500,
+    "est_net_worth": "$18.7M",
+    "real_estate": [
+      {
+        "location": "Bethesda, MD",
+        "value": "$3.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$4.4M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$11.3M",
+    "political_giving": "$21,180 lifetime",
+    "boards": [
+      "Kennedy Center"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$50,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$148,000/yr",
+    "foundation": "Underwood Family Trust \u2014 DC arts grants"
+  },
+  "c0021": {
+    "ds_rating": 5,
+    "mlr_score": 67,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 10000,
+    "est_net_worth": "$28.5M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase, MD",
+        "value": "$4.3M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$2.9M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$7.5M",
+    "political_giving": "$75,695 lifetime",
+    "boards": [
+      "Kennedy Center",
+      "Dumbarton Oaks",
+      "Meridian International"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$61,000/yr",
+    "foundation": null
+  },
+  "c0022": {
+    "ds_rating": 3,
+    "mlr_score": 72,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 10000,
+    "est_net_worth": "$5.8M",
+    "real_estate": [
+      {
+        "location": "Rockville, MD",
+        "value": "$4.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Middleburg, VA",
+        "value": "$2.6M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$10.7M",
+    "political_giving": "$145,672 lifetime",
+    "boards": [
+      "Folger Shakespeare Library",
+      "Corcoran School"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$67,000/yr",
+    "foundation": null
+  },
+  "c0007": {
+    "ds_rating": 4,
+    "mlr_score": 77,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 15000,
+    "est_net_worth": "$5.8M",
+    "real_estate": [
+      {
+        "location": "Adams Morgan, DC",
+        "value": "$7.5M",
+        "type": "Primary"
+      },
+      {
+        "location": "Middleburg, VA",
+        "value": "$3.9M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$16.8M",
+    "political_giving": "$141,632 lifetime",
+    "boards": [
+      "Washington National Cathedral",
+      "Meridian International",
+      "Dumbarton Oaks"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$134,000/yr",
+    "foundation": null
+  },
+  "c0010": {
+    "ds_rating": 5,
+    "mlr_score": 77,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 20000,
+    "est_net_worth": "$45M+",
+    "real_estate": [
+      {
+        "location": "McLean, VA",
+        "value": "$8.2M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$2.8M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$13.4M",
+    "political_giving": "$118,859 lifetime",
+    "boards": [
+      "Folger Shakespeare Library",
+      "National Gallery of Art",
+      "Hillwood Estate"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$50,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$132,000/yr",
+    "foundation": "Peterson Family Trust \u2014 DC arts grants"
+  },
+  "c0012": {
+    "ds_rating": 4,
+    "mlr_score": 73,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 30000,
+    "est_net_worth": "$22.3M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase, MD",
+        "value": "$8.4M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$2.8M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$18.2M",
+    "political_giving": "$99,446 lifetime",
+    "boards": [
+      "Kennedy Center"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$179,000/yr",
+    "foundation": null
+  },
+  "c0015": {
+    "ds_rating": 3,
+    "mlr_score": 84,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 25000,
+    "est_net_worth": "$18.7M",
+    "real_estate": [
+      {
+        "location": "Adams Morgan, DC",
+        "value": "$5.9M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$4.5M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$9.9M",
+    "political_giving": "$37,393 lifetime",
+    "boards": [
+      "Folger Shakespeare Library",
+      "Corcoran School",
+      "Kennedy Center"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$96,000/yr",
+    "foundation": null
+  },
+  "c0023": {
+    "ds_rating": 3,
+    "mlr_score": 86,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 15000,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Arlington, VA",
+        "value": "$5.3M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$5.8M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$9.2M",
+    "political_giving": "$95,877 lifetime",
+    "boards": [
+      "Kennedy Center",
+      "Washington National Cathedral",
+      "Dumbarton Oaks"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$47,000/yr",
+    "foundation": "Graham Family Trust \u2014 DC arts grants"
+  },
+  "c0014": {
+    "ds_rating": 5,
+    "mlr_score": 91,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 10000,
+    "est_net_worth": "$5.8M",
+    "real_estate": [
+      {
+        "location": "Kalorama, DC",
+        "value": "$3.8M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$2.8M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$17.7M",
+    "political_giving": "$167,502 lifetime",
+    "boards": [
+      "Kennedy Center",
+      "Dumbarton Oaks",
+      "National Gallery of Art"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$123,000/yr",
+    "foundation": "Halloway Charitable Foundation"
+  },
+  "c0018": {
+    "ds_rating": 4,
+    "mlr_score": 90,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 15000,
+    "est_net_worth": "$28.5M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase DC, DC",
+        "value": "$7.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$3.8M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$8.4M",
+    "political_giving": "$54,573 lifetime",
+    "boards": [
+      "Dumbarton Oaks",
+      "Folger Shakespeare Library"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$47,000/yr",
+    "foundation": "Wexford Charitable Foundation"
+  },
+  "c0019": {
+    "ds_rating": 4,
+    "mlr_score": 89,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 25000,
+    "est_net_worth": "$5.8M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase, MD",
+        "value": "$5.4M",
+        "type": "Primary"
+      },
+      {
+        "location": "Middleburg, VA",
+        "value": "$3.3M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$12.6M",
+    "political_giving": "$123,652 lifetime",
+    "boards": [
+      "Folger Shakespeare Library",
+      "Meridian International",
+      "Corcoran School"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$28,000/yr",
+    "foundation": "Greer Charitable Foundation"
+  },
+  "c0025": {
+    "ds_rating": 4,
+    "mlr_score": 83,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 25000,
+    "est_net_worth": "$8.4M",
+    "real_estate": [
+      {
+        "location": "Rockville, MD",
+        "value": "$2.9M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$5.9M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$12.7M",
+    "political_giving": "$69,331 lifetime",
+    "boards": [
+      "Corcoran School"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$50,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$87,000/yr",
+    "foundation": null
+  },
+  "c0028": {
+    "ds_rating": 3,
+    "mlr_score": 86,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 3750,
+    "est_net_worth": "$18.7M",
+    "real_estate": [
+      {
+        "location": "Bethesda, MD",
+        "value": "$5.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$1.3M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$10.7M",
+    "political_giving": "$82,452 lifetime",
+    "boards": [
+      "Meridian International"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$154,000/yr",
+    "foundation": null
+  },
+  "c0029": {
+    "ds_rating": 5,
+    "mlr_score": 84,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 12500,
+    "est_net_worth": "$12.1M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase, MD",
+        "value": "$5.4M",
+        "type": "Primary"
+      },
+      {
+        "location": "Nantucket, MA",
+        "value": "$1.7M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$12.9M",
+    "political_giving": "$95,881 lifetime",
+    "boards": [
+      "Meridian International"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$168,000/yr",
+    "foundation": null
+  },
+  "c0032": {
+    "ds_rating": 3,
+    "mlr_score": 75,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 12500,
+    "est_net_worth": "$45M+",
+    "real_estate": [
+      {
+        "location": "Chevy Chase, MD",
+        "value": "$4.3M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$1.1M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$15.3M",
+    "political_giving": "$154,791 lifetime",
+    "boards": [
+      "Phillips Collection"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$152,000/yr",
+    "foundation": "Underhill Charitable Foundation"
+  },
+  "c0033": {
+    "ds_rating": 3,
+    "mlr_score": 69,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 7500,
+    "est_net_worth": "$28.5M",
+    "real_estate": [
+      {
+        "location": "Georgetown, DC",
+        "value": "$3.1M",
+        "type": "Primary"
+      },
+      {
+        "location": "Nantucket, MA",
+        "value": "$5.9M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$5.5M",
+    "political_giving": "$74,382 lifetime",
+    "boards": [
+      "Hillwood Estate"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$41,000/yr",
+    "foundation": "Hawkins Family Trust \u2014 DC arts grants"
+  },
+  "c0040": {
+    "ds_rating": 3,
+    "mlr_score": 91,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 5000,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Spring Valley, DC",
+        "value": "$6.3M",
+        "type": "Primary"
+      },
+      {
+        "location": "Palm Beach, FL",
+        "value": "$1.3M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$8.2M",
+    "political_giving": "$88,682 lifetime",
+    "boards": [
+      "Hillwood Estate",
+      "Corcoran School",
+      "Folger Shakespeare Library"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$50,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$25,000/yr",
+    "foundation": null
+  },
+  "c0024": {
+    "ds_rating": 4,
+    "mlr_score": 81,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 10000,
+    "est_net_worth": "$45M+",
+    "real_estate": [
+      {
+        "location": "Arlington, VA",
+        "value": "$2.5M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$2.2M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$12.9M",
+    "political_giving": "$125,459 lifetime",
+    "boards": [
+      "Hillwood Estate",
+      "Folger Shakespeare Library",
+      "Kennedy Center"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$45,000/yr",
+    "foundation": "Drummond Charitable Foundation"
+  },
+  "c0035": {
+    "ds_rating": 4,
+    "mlr_score": 80,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 7500,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Great Falls, VA",
+        "value": "$8.2M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$2.2M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$15.1M",
+    "political_giving": "$24,709 lifetime",
+    "boards": [
+      "Dumbarton Oaks",
+      "Meridian International",
+      "Kennedy Center"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$50,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$175,000/yr",
+    "foundation": null
+  },
+  "c0038": {
+    "ds_rating": 5,
+    "mlr_score": 91,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 5000,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase, MD",
+        "value": "$2.2M",
+        "type": "Primary"
+      },
+      {
+        "location": "Aspen, CO",
+        "value": "$5.2M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$10.3M",
+    "political_giving": "$46,735 lifetime",
+    "boards": [
+      "Corcoran School",
+      "Hillwood Estate",
+      "National Gallery of Art"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$84,000/yr",
+    "foundation": "Parrington Family Trust \u2014 DC arts grants"
+  },
+  "c0043": {
+    "ds_rating": 5,
+    "mlr_score": 92,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 6250,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Georgetown, DC",
+        "value": "$7.3M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$2.4M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$17.6M",
+    "political_giving": "$33,188 lifetime",
+    "boards": [
+      "Meridian International"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$58,000/yr",
+    "foundation": "Wexford Charitable Foundation"
+  },
+  "c0031": {
+    "ds_rating": 4,
+    "mlr_score": 80,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 5000,
+    "est_net_worth": "$12.1M",
+    "real_estate": [
+      {
+        "location": "Spring Valley, DC",
+        "value": "$7.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Nantucket, MA",
+        "value": "$2.7M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$8.7M",
+    "political_giving": "$59,799 lifetime",
+    "boards": [
+      "Meridian International",
+      "Dumbarton Oaks"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$15,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$148,000/yr",
+    "foundation": null
+  },
+  "c0034": {
+    "ds_rating": 3,
+    "mlr_score": 65,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 3750,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Bethesda, MD",
+        "value": "$3.4M",
+        "type": "Primary"
+      },
+      {
+        "location": "Middleburg, VA",
+        "value": "$2.8M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$5.6M",
+    "political_giving": "$109,805 lifetime",
+    "boards": [
+      "Phillips Collection",
+      "Corcoran School",
+      "Hillwood Estate"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$103,000/yr",
+    "foundation": "Edgewater Charitable Foundation"
+  },
+  "c0036": {
+    "ds_rating": 5,
+    "mlr_score": 77,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 7500,
+    "est_net_worth": "$5.8M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase DC, DC",
+        "value": "$4.8M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$3.6M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$12.1M",
+    "political_giving": "$31,882 lifetime",
+    "boards": [
+      "National Gallery of Art",
+      "Dumbarton Oaks"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$7,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$66,000/yr",
+    "foundation": "Kensington Charitable Foundation"
+  },
+  "c0041": {
+    "ds_rating": 4,
+    "mlr_score": 65,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 6250,
+    "est_net_worth": "$8.4M",
+    "real_estate": [
+      {
+        "location": "McLean, VA",
+        "value": "$4.3M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$3.8M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$10.4M",
+    "political_giving": "$125,568 lifetime",
+    "boards": [
+      "Folger Shakespeare Library"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Hillwood Estate",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$110,000/yr",
+    "foundation": "Fairfax Family Trust \u2014 DC arts grants"
+  },
+  "c0042": {
+    "ds_rating": 4,
+    "mlr_score": 78,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 3750,
+    "est_net_worth": "$3.2M",
+    "real_estate": [
+      {
+        "location": "Chevy Chase DC, DC",
+        "value": "$6.7M",
+        "type": "Primary"
+      },
+      {
+        "location": "Eastern Shore, MD",
+        "value": "$5.3M",
+        "type": "Country Home"
+      }
+    ],
+    "real_estate_total": "$6.2M",
+    "political_giving": "$51,109 lifetime",
+    "boards": [
+      "Folger Shakespeare Library",
+      "Kennedy Center"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "ar"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$15,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Colonial Williamsburg",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$66,000/yr",
+    "foundation": "Merriweather Charitable Foundation"
+  },
+  "c0026": {
+    "ds_rating": 5,
+    "mlr_score": 69,
+    "major_gift_likelihood": "Very High",
+    "annual_gift_likelihood": "High",
+    "target_ask": 6250,
+    "est_net_worth": "$5.8M",
+    "real_estate": [
+      {
+        "location": "Adams Morgan, DC",
+        "value": "$8.6M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$1.2M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$12.6M",
+    "political_giving": "$61,866 lifetime",
+    "boards": [
+      "Folger Shakespeare Library",
+      "Meridian International"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "990"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$5,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "ar"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$10,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Dumbarton Oaks",
+        "amount": "$5,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$73,000/yr",
+    "foundation": null
+  },
+  "c0027": {
+    "ds_rating": 3,
+    "mlr_score": 96,
+    "major_gift_likelihood": "High",
+    "annual_gift_likelihood": "Very High",
+    "target_ask": 5000,
+    "est_net_worth": "$12.1M",
+    "real_estate": [
+      {
+        "location": "Adams Morgan, DC",
+        "value": "$4.9M",
+        "type": "Primary"
+      },
+      {
+        "location": "Newport, RI",
+        "value": "$3.3M",
+        "type": "Vacation"
+      }
+    ],
+    "real_estate_total": "$15.9M",
+    "political_giving": "$43,653 lifetime",
+    "boards": [
+      "Folger Shakespeare Library",
+      "Hillwood Estate"
+    ],
+    "external_giving": [
+      {
+        "org": "Smithsonian American Art Museum",
+        "amount": "$25,000",
+        "year": "2025",
+        "type": "Patron Circle",
+        "source": "dl"
+      },
+      {
+        "org": "Phillips Collection",
+        "amount": "$10,000",
+        "year": "2025",
+        "type": "Patron",
+        "source": "990"
+      },
+      {
+        "org": "National Trust for Historic Preservation",
+        "amount": "$5,000",
+        "year": "2024",
+        "type": "Donor",
+        "source": "ar"
+      },
+      {
+        "org": "Winterthur Museum",
+        "amount": "$10,500",
+        "year": "2024",
+        "type": "Member",
+        "source": "dl"
+      }
+    ],
+    "external_total": "$29,000/yr",
+    "foundation": "Penbrook Family Trust \u2014 DC arts grants"
+  }
+}

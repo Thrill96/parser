@@ -1,0 +1,202 @@
+[
+  {
+    "id": "s001",
+    "source": "gmail",
+    "type": "manual",
+    "status": "success",
+    "records_processed": 23,
+    "started_at": "2026-01-12T14:52:13Z",
+    "duration_ms": 4340,
+    "error": null
+  },
+  {
+    "id": "s002",
+    "source": "donorsearch",
+    "type": "manual",
+    "status": "success",
+    "records_processed": 21,
+    "started_at": "2026-01-12T14:10:32Z",
+    "duration_ms": 1632,
+    "error": "API rate limit (will retry)"
+  },
+  {
+    "id": "s003",
+    "source": "donorsearch",
+    "type": "webhook",
+    "status": "success",
+    "records_processed": 9,
+    "started_at": "2026-01-12T14:13:21Z",
+    "duration_ms": 1222,
+    "error": null
+  },
+  {
+    "id": "s004",
+    "source": "etapestry",
+    "type": "webhook",
+    "status": "success",
+    "records_processed": 8,
+    "started_at": "2026-01-12T14:32:52Z",
+    "duration_ms": 1458,
+    "error": null
+  },
+  {
+    "id": "s005",
+    "source": "gmail",
+    "type": "scheduled",
+    "status": "success",
+    "records_processed": 17,
+    "started_at": "2026-01-12T13:46:43Z",
+    "duration_ms": 1653,
+    "error": null
+  },
+  {
+    "id": "s006",
+    "source": "mailchimp",
+    "type": "scheduled",
+    "status": "success",
+    "records_processed": 1,
+    "started_at": "2026-01-12T13:30:45Z",
+    "duration_ms": 2417,
+    "error": null
+  },
+  {
+    "id": "s007",
+    "source": "squarespace",
+    "type": "manual",
+    "status": "success",
+    "records_processed": 24,
+    "started_at": "2026-01-12T13:31:29Z",
+    "duration_ms": 3924,
+    "error": "API rate limit (will retry)"
+  },
+  {
+    "id": "s008",
+    "source": "donorsearch",
+    "type": "manual",
+    "status": "success",
+    "records_processed": 6,
+    "started_at": "2026-01-12T13:41:16Z",
+    "duration_ms": 380,
+    "error": "API rate limit (will retry)"
+  },
+  {
+    "id": "s009",
+    "source": "gmail",
+    "type": "webhook",
+    "status": "success",
+    "records_processed": 19,
+    "started_at": "2026-01-12T12:50:12Z",
+    "duration_ms": 348,
+    "error": null
+  },
+  {
+    "id": "s010",
+    "source": "donorsearch",
+    "type": "scheduled",
+    "status": "failed",
+    "records_processed": 6,
+    "started_at": "2026-01-12T12:51:14Z",
+    "duration_ms": 1177,
+    "error": null
+  },
+  {
+    "id": "s011",
+    "source": "mailchimp",
+    "type": "manual",
+    "status": "success",
+    "records_processed": 14,
+    "started_at": "2026-01-12T12:13:45Z",
+    "duration_ms": 1428,
+    "error": null
+  },
+  {
+    "id": "s012",
+    "source": "etapestry",
+    "type": "scheduled",
+    "status": "success",
+    "records_processed": 10,
+    "started_at": "2026-01-12T12:14:31Z",
+    "duration_ms": 1579,
+    "error": null
+  },
+  {
+    "id": "s013",
+    "source": "mailchimp",
+    "type": "scheduled",
+    "status": "success",
+    "records_processed": 19,
+    "started_at": "2026-01-12T11:56:16Z",
+    "duration_ms": 1268,
+    "error": null
+  },
+  {
+    "id": "s014",
+    "source": "mailchimp",
+    "type": "manual",
+    "status": "success",
+    "records_processed": 21,
+    "started_at": "2026-01-12T11:47:55Z",
+    "duration_ms": 874,
+    "error": null
+  },
+  {
+    "id": "s015",
+    "source": "donorsearch",
+    "type": "manual",
+    "status": "failed",
+    "records_processed": 11,
+    "started_at": "2026-01-12T11:46:48Z",
+    "duration_ms": 2253,
+    "error": null
+  },
+  {
+    "id": "s016",
+    "source": "etapestry",
+    "type": "webhook",
+    "status": "success",
+    "records_processed": 9,
+    "started_at": "2026-01-12T11:53:10Z",
+    "duration_ms": 1936,
+    "error": null
+  },
+  {
+    "id": "s017",
+    "source": "gmail",
+    "type": "scheduled",
+    "status": "success",
+    "records_processed": 3,
+    "started_at": "2026-01-12T10:19:51Z",
+    "duration_ms": 1082,
+    "error": null
+  },
+  {
+    "id": "s018",
+    "source": "squarespace",
+    "type": "manual",
+    "status": "success",
+    "records_processed": 9,
+    "started_at": "2026-01-12T10:47:48Z",
+    "duration_ms": 4473,
+    "error": null
+  },
+  {
+    "id": "s019",
+    "source": "etapestry",
+    "type": "webhook",
+    "status": "success",
+    "records_processed": 17,
+    "started_at": "2026-01-12T10:17:45Z",
+    "duration_ms": 3329,
+    "error": null
+  },
+  {
+    "id": "s020",
+    "source": "gmail",
+    "type": "scheduled",
+    "status": "success",
+    "records_processed": 8,
+    "started_at": "2026-01-12T10:50:27Z",
+    "duration_ms": 1693,
+    "error": null
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "zip": "20008",
+    "area": "Kalorama / Cleveland Park",
+    "state": "DC",
+    "wealth": "Very High",
+    "donors": 68,
+    "giving": 486900,
+    "ds_matches": 45,
+    "untapped_capacity": "$540K"
+  },
+  {
+    "zip": "20850",
+    "area": "Rockville",
+    "state": "MD",
+    "wealth": "High",
+    "donors": 68,
+    "giving": 238975,
+    "ds_matches": 24,
+    "untapped_capacity": "$476K"
+  },
+  {
+    "zip": "20009",
+    "area": "Adams Morgan",
+    "state": "DC",
+    "wealth": "High",
+    "donors": 63,
+    "giving": 206950,
+    "ds_matches": 20,
+    "untapped_capacity": "$698K"
+  },
+  {
+    "zip": "20817",
+    "area": "Bethesda",
+    "state": "MD",
+    "wealth": "High",
+    "donors": 59,
+    "giving": 141625,
+    "ds_matches": 28,
+    "untapped_capacity": "$705K"
+  },
+  {
+    "zip": "21146",
+    "area": "Severna Park",
+    "state": "MD",
+    "wealth": "High",
+    "donors": 64,
+    "giving": 116925,
+    "ds_matches": 16,
+    "untapped_capacity": "$501K"
+  },
+  {
+    "zip": "22209",
+    "area": "Arlington",
+    "state": "VA",
+    "wealth": "High",
+    "donors": 69,
+    "giving": 107750,
+    "ds_matches": 15,
+    "untapped_capacity": "$326K"
+  },
+  {
+    "zip": "20814",
+    "area": "Bethesda",
+    "state": "MD",
+    "wealth": "High",
+    "donors": 53,
+    "giving": 101575,
+    "ds_matches": 11,
+    "untapped_capacity": "$200K"
+  },
+  {
+    "zip": "20816",
+    "area": "Chevy Chase / Bethesda",
+    "state": "MD",
+    "wealth": "Very High",
+    "donors": 49,
+    "giving": 93350,
+    "ds_matches": 26,
+    "untapped_capacity": "$474K"
+  },
+  {
+    "zip": "20815",
+    "area": "Chevy Chase",
+    "state": "MD",
+    "wealth": "Very High",
+    "donors": 60,
+    "giving": 89750,
+    "ds_matches": 24,
+    "untapped_capacity": "$447K"
+  },
+  {
+    "zip": "22101",
+    "area": "McLean",
+    "state": "VA",
+    "wealth": "Very High",
+    "donors": 58,
+    "giving": 85975,
+    "ds_matches": 17,
+    "untapped_capacity": "$515K"
+  },
+  {
+    "zip": "20016",
+    "area": "Spring Valley / AU Park",
+    "state": "DC",
+    "wealth": "Very High",
+    "donors": 65,
+    "giving": 84200,
+    "ds_matches": 30,
+    "untapped_capacity": "$305K"
+  },
+  {
+    "zip": "20007",
+    "area": "Georgetown",
+    "state": "DC",
+    "wealth": "Very High",
+    "donors": 52,
+    "giving": 83825,
+    "ds_matches": 63,
+    "untapped_capacity": "$433K"
+  },
+  {
+    "zip": "20015",
+    "area": "Chevy Chase DC",
+    "state": "DC",
+    "wealth": "Very High",
+    "donors": 54,
+    "giving": 71200,
+    "ds_matches": 47,
+    "untapped_capacity": "$490K"
+  },
+  {
+    "zip": "20854",
+    "area": "Potomac",
+    "state": "MD",
+    "wealth": "Very High",
+    "donors": 69,
+    "giving": 63325,
+    "ds_matches": 65,
+    "untapped_capacity": "$336K"
+  },
+  {
+    "zip": "22207",
+    "area": "Arlington",
+    "state": "VA",
+    "wealth": "High",
+    "donors": 56,
+    "giving": 62300,
+    "ds_matches": 17,
+    "untapped_capacity": "$202K"
+  },
+  {
+    "zip": "22314",
+    "area": "Old Town Alexandria",
+    "state": "VA",
+    "wealth": "High",
+    "donors": 49,
+    "giving": 39425,
+    "ds_matches": 23,
+    "untapped_capacity": "$549K"
+  },
+  {
+    "zip": "22066",
+    "area": "Great Falls",
+    "state": "VA",
+    "wealth": "Very High",
+    "donors": 54,
+    "giving": 38400,
+    "ds_matches": 27,
+    "untapped_capacity": "$488K"
+  }
+]
